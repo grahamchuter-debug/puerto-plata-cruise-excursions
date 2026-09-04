@@ -1,5 +1,5 @@
-# Image Attribution
+# Image attribution — Puerto Plata
 
-Hero and content images sourced from [Unsplash](https://unsplash.com) under the [Unsplash License](https://unsplash.com/license).
-
-Downloaded via `scripts/fetch-puerto-plata-images.py`.
+Local image files sourced from Unsplash (Unsplash License) or destination-owned assets.
+Phase 3B remediated within-site and cross-site hash collisions for differently labelled experiences.
+Do not hotlink Unsplash at runtime.
