@@ -5,10 +5,10 @@
     "sync:schedules": "node scripts/sync-schedules.mjs",
     "qa:schedules": "node scripts/qa-schedules.mjs",
     "build:schedules": "python3 scripts/generate_schedule_pages.py",
-    "build": "python3 scripts/build-puerto-plata-site.py && python3 scripts/world2_extend_puerto_plata.py && python3 scripts/generate_schedule_pages.py",
+    "build": "python3 scripts/build-puerto-plata-site.py && python3 scripts/world2_extend_puerto_plata.py && python3 scripts/generate_schedule_pages.py && python3 scripts/assemble-puerto-plata-pages.py",
     "build:all": "npm run sync:schedules && npm run qa:schedules && npm run build",
-    "deploy": "wrangler deploy",
-    "preview": "python3 -m http.server 8904"
+    "deploy": "npm run build && wrangler pages deploy dist --project-name=puerto-plata-cruise-excursions --branch=main --commit-dirty=true",
+    "preview": "python3 -m http.server 8904 --directory dist"
   },
   "devDependencies": {
     "wrangler": "^4.94.0"

@@ -35,7 +35,7 @@ RETURN_BADGE = (
     '<svg fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">'
     '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" '
     'd="M3 17h18M5 17l2-8h10l2 8M9 9l1-4h4l1 4"/></svg>'
-    "Return To Ship On Time</span>"
+    "Plan a return window</span>"
 )
 
 
@@ -322,7 +322,7 @@ def faq_schema(items: list[tuple[str, str]]) -> list[dict]:
       <li class="trust-strip__item"><span class="trust-strip__check" aria-hidden="true">✔</span> Amber Cove + Taino Bay Logistics</li>
       <li class="trust-strip__item"><span class="trust-strip__check" aria-hidden="true">✔</span> Waterfalls &amp; Adventure Tours</li>
       <li class="trust-strip__item"><span class="trust-strip__check" aria-hidden="true">✔</span> City, Beach &amp; Catamaran Options</li>
-      <li class="trust-strip__item"><span class="trust-strip__check" aria-hidden="true">✔</span> Cruise-Friendly Return Planning</li>
+      <li class="trust-strip__item"><span class="trust-strip__check" aria-hidden="true">✔</span> Return-Window Planning</li>
     </ul>
   </div>
 </section>''')
@@ -529,7 +529,7 @@ print("Heroes written")
     "Best For": "Adventure, culture, beach and mixed groups",
     "Activity Level": "Easy to active options available",
     "Family Friendly": "Strong across Monkeyland, beach and city tours",
-    "Return To Ship Planning": "Keep 60-90 min buffer on independent tours",
+    "Return To Ship Planning": "Build your own buffer; confirm operator return plan",
 })}</div></section>'''
     + '''
 <section class="py-16 bg-dr-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -774,7 +774,7 @@ BEST_FAQ = [
     "Best For": "Comparing all excursion types",
     "Activity Range": "Low to high",
     "Family Friendly": "Strong with tour matching",
-    "Return To Ship Advice": "Keep 60-90 min buffer",
+    "Return To Ship Advice": "Build your own buffer; confirm operator return plan",
     "Popular Excursion Types": "Waterfalls, wildlife, city, beach, catamaran",
 })}</div></section>
 <section class="py-16 bg-dr-50"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -814,7 +814,7 @@ BEST_FAQ = [
     "City Access": "Both reach Puerto Plata city",
     "Typical Excursion Length": "4-6 hours",
     "Transport": "Pre-booked tours and taxis",
-    "Return Advice": "Build 60-90 min buffer",
+    "Return Advice": "Build your own buffer; confirm operator return plan",
     "Best Use of Port Day": "Pick one core excursion style",
 })}</div></section>
 <section class="py-12 bg-white"><div class="max-w-3xl mx-auto px-4 sm:px-6 space-y-8 text-sm text-gray-600 leading-relaxed">
@@ -829,7 +829,7 @@ BEST_FAQ = [
   <div><h3 class="text-xl font-display font-bold text-gray-900 mb-3">Excursion timing</h3>
   <ul class="list-disc pl-5 space-y-2"><li>Most Puerto Plata port calls run 7-10 hours  -  enough for one full excursion plus buffer.</li><li>Damajagua and city tours typically need 4-6 hours including transfers.</li><li>Beach breaks and Monkeyland often fit shorter windows with comfortable return margins.</li><li>Account for terminal walk-out time when meeting your guide after disembarkation.</li></ul></div>
   <div><h3 class="text-xl font-display font-bold text-gray-900 mb-3">Return-to-ship advice</h3>
-  <p>Ship-sponsored excursions guarantee the vessel waits if the tour runs late. Reputable independent operators build in buffer  -  look for tours that target return at least <strong>60-90 minutes before all aboard</strong>. Keep your cruise line's port contact number and reconfirm end times the morning you dock.</p></div>
+  <p>Ship-sold tours often include a wait-if-late policy from the cruise line. Reputable independent operators build in buffer  -  look for tours that target return at least <strong>a sensible return window before all aboard</strong>. Keep your cruise line's port contact number and reconfirm end times the morning you dock.</p></div>
   <div><h3 class="text-xl font-display font-bold text-gray-900 mb-3">First-time visitor tips</h3>
   <p>Puerto Plata rewards travelers who plan one strong excursion rather than trying to cram too much. Match activity level to your group  -  Damajagua for adventure, Monkeyland for families, city tour for culture, beach break for easy pacing. Always verify your docking port and excursion pickup point before final payment.</p></div>
 </div></section>
@@ -884,7 +884,7 @@ BEST_FAQ = [
     "Best For": "Efficient day planning",
     "Plan Style": "Adventure, mixed, or easy day",
     "Typical Tour Length": "4-6 hours",
-    "Return Window": "60-90 min before all aboard",
+    "Return Window": "a sensible return window before all aboard",
     "Backup Tip": "Keep one simple fallback option",
 })}</div></section>
 <section class="py-12 bg-dr-50"><div class="max-w-3xl mx-auto px-4 space-y-10">
@@ -979,23 +979,10 @@ PAGES = [
                     "description": "Puerto Plata cruise excursion destination guide",
                 },
                 {
-                    "@type": "LocalBusiness",
+                    "@type": "WebPage",
                     "name": SITE,
                     "url": BASE_URL + "/",
                     "description": "Cruise destination planning guide for Puerto Plata excursions",
-                    "address": {
-                        "@type": "PostalAddress",
-                        "addressLocality": "Puerto Plata",
-                        "addressRegion": "Puerto Plata",
-                        "addressCountry": "DO",
-                    },
-                    "areaServed": {"@type": "City", "name": "Puerto Plata"},
-                },
-                {
-                    "@type": "TouristInformationCenter",
-                    "name": SITE,
-                    "url": BASE_URL + "/",
-                    "description": "Puerto Plata cruise excursion planning information",
                 },
                 {"@type": "FAQPage", "mainEntity": faq_schema(HOME_FAQ)},
             ],
@@ -1015,7 +1002,7 @@ PAGES = [
             "@context": "https://schema.org",
             "@graph": [
                 {
-                    "@type": "TouristInformationCenter",
+                    "@type": "WebPage",
                     "name": "Best Puerto Plata Shore Excursions",
                     "url": BASE_URL + "/best-puerto-plata-shore-excursions.html",
                     "description": "Puerto Plata excursion comparison guide",
@@ -1036,7 +1023,7 @@ PAGES = [
         BASE_URL + "/puerto-plata-cruise-port-guide.html",
         {
             "@context": "https://schema.org",
-            "@type": "TouristInformationCenter",
+            "@type": "WebPage",
             "name": "Puerto Plata Cruise Port Guide",
             "url": BASE_URL + "/puerto-plata-cruise-port-guide.html",
         },
@@ -1053,7 +1040,7 @@ PAGES = [
         BASE_URL + "/amber-cove-vs-taino-bay.html",
         {
             "@context": "https://schema.org",
-            "@type": "TouristInformationCenter",
+            "@type": "WebPage",
             "name": "Amber Cove vs Taino Bay",
             "url": BASE_URL + "/amber-cove-vs-taino-bay.html",
         },
@@ -1070,7 +1057,7 @@ PAGES = [
         BASE_URL + "/one-day-in-puerto-plata-from-a-cruise-ship.html",
         {
             "@context": "https://schema.org",
-            "@type": "TouristInformationCenter",
+            "@type": "WebPage",
             "name": "One Day in Puerto Plata",
             "url": BASE_URL + "/one-day-in-puerto-plata-from-a-cruise-ship.html",
         },
@@ -1087,11 +1074,10 @@ PAGES = [
         BASE_URL + "/damajagua-waterfalls-shore-excursion-puerto-plata.html",
         {
             "@context": "https://schema.org",
-            "@type": "TouristTrip",
-            "name": "Damajagua Waterfalls Shore Excursion Puerto Plata",
+            "@type": "Article",
+            "headline": "Damajagua Waterfalls Shore Excursion Puerto Plata",
             "description": "Waterfalls and natural pools adventure from Puerto Plata cruise ports.",
-            "touristType": "Cruise passengers",
-            "provider": {"@type": "Organization", "name": SITE, "url": BASE_URL},
+            "url": BASE_URL + "/damajagua-waterfalls-shore-excursion-puerto-plata.html",
         },
     ),
     (
@@ -1106,11 +1092,10 @@ PAGES = [
         BASE_URL + "/monkeyland-shore-excursion-puerto-plata.html",
         {
             "@context": "https://schema.org",
-            "@type": "TouristTrip",
-            "name": "Monkeyland Shore Excursion Puerto Plata",
+            "@type": "Article",
+            "headline": "Monkeyland Shore Excursion Puerto Plata",
             "description": "Family-friendly squirrel monkey interaction tour from Puerto Plata.",
-            "touristType": "Cruise passengers",
-            "provider": {"@type": "Organization", "name": SITE, "url": BASE_URL},
+            "url": BASE_URL + "/monkeyland-shore-excursion-puerto-plata.html",
         },
     ),
     (
@@ -1125,11 +1110,10 @@ PAGES = [
         BASE_URL + "/puerto-plata-city-tour.html",
         {
             "@context": "https://schema.org",
-            "@type": "TouristTrip",
-            "name": "Puerto Plata City Tour",
+            "@type": "Article",
+            "headline": "Puerto Plata City Tour",
             "description": "Historic and landmark-focused Puerto Plata city excursion from cruise ports.",
-            "touristType": "Cruise passengers",
-            "provider": {"@type": "Organization", "name": SITE, "url": BASE_URL},
+            "url": BASE_URL + "/puerto-plata-city-tour.html",
         },
     ),
     (
@@ -1144,11 +1128,10 @@ PAGES = [
         BASE_URL + "/puerto-plata-beach-break.html",
         {
             "@context": "https://schema.org",
-            "@type": "TouristTrip",
-            "name": "Puerto Plata Beach Break",
+            "@type": "Article",
+            "headline": "Puerto Plata Beach Break",
             "description": "Relaxed beach-focused shore excursion from Puerto Plata cruise ports.",
-            "touristType": "Cruise passengers",
-            "provider": {"@type": "Organization", "name": SITE, "url": BASE_URL},
+            "url": BASE_URL + "/puerto-plata-beach-break.html",
         },
     ),
     (
@@ -1163,11 +1146,10 @@ PAGES = [
         BASE_URL + "/catamaran-snorkel-puerto-plata.html",
         {
             "@context": "https://schema.org",
-            "@type": "TouristTrip",
-            "name": "Catamaran & Snorkel Puerto Plata",
+            "@type": "Article",
+            "headline": "Catamaran & Snorkel Puerto Plata",
             "description": "Sailing and snorkeling shore excursion from Puerto Plata cruise ports.",
-            "touristType": "Cruise passengers",
-            "provider": {"@type": "Organization", "name": SITE, "url": BASE_URL},
+            "url": BASE_URL + "/catamaran-snorkel-puerto-plata.html",
         },
     ),
     (
@@ -1184,7 +1166,7 @@ PAGES = [
             "@context": "https://schema.org",
             "@graph": [
                 {
-                    "@type": "TouristInformationCenter",
+                    "@type": "WebPage",
                     "name": "Is Puerto Plata Worth Visiting",
                     "url": BASE_URL + "/is-puerto-plata-worth-visiting.html",
                 },
@@ -1237,16 +1219,6 @@ sitemap += "</urlset>\n"
     f"User-agent: *\nAllow: /\n\nSitemap: {BASE_URL}/sitemap.xml\n"
 )
 
-(ROOT / "wrangler.jsonc").write_text(
-    '''{
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "puerto-plata-cruise-excursions",
-  "compatibility_date": "2026-06-10",
-  "observability": { "enabled": true },
-  "assets": { "directory": "." },
-  "routes": [{ "pattern": "puertoplatacruiseexcursion.com", "custom_domain": true }]
-}
-'''
-)
+# Phase 33B: live hosting is Cloudflare Pages  -  do not regenerate Workers wrangler.jsonc here.
 
-print("Sitemap, robots, wrangler written  -  DONE")
+print("Sitemap, robots written  -  DONE")

@@ -565,26 +565,8 @@ def merge_sitemap(extra: list[tuple[str, str, str]]) -> None:
 
 
 def write_package_json() -> None:
-    write(
-        "package.json",
-        """{
-  "name": "puerto-plata-cruise-excursions",
-  "private": true,
-  "scripts": {
-    "sync:schedules": "node scripts/sync-schedules.mjs",
-    "qa:schedules": "node scripts/qa-schedules.mjs",
-    "build:schedules": "python3 scripts/generate_schedule_pages.py",
-    "build": "python3 scripts/build-puerto-plata-site.py && python3 scripts/world2_extend_puerto_plata.py && python3 scripts/generate_schedule_pages.py",
-    "build:all": "npm run sync:schedules && npm run qa:schedules && npm run build",
-    "deploy": "wrangler deploy",
-    "preview": "python3 -m http.server 8904"
-  },
-  "devDependencies": {
-    "wrangler": "^4.94.0"
-  }
-}
-""",
-    )
+    # Phase 33B: preserve Pages deploy path; do not overwrite package.json.
+    return
 
 
 def ensure_decision_css() -> None:
