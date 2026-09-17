@@ -23,7 +23,7 @@ export async function onRequest(context) {
 
   if (BLOCKED.some((re) => re.test(url.pathname))) {
     let body =
-      "<!DOCTYPE html><html lang=\"en-GB\"><head><meta charset=\"UTF-8\"/><meta name=\"robots\" content=\"noindex,follow\"/><title>Page not found | Puerto Plata Cruise Excursion</title></head><body><h1>Page not found</h1><p><a href=\"/\">Puerto Plata home</a></p></body></html>";
+      '<!DOCTYPE html><html lang="en-GB"><head><meta charset="UTF-8"/><meta name="robots" content="noindex,follow"/><title>Page not found | Puerto Plata Cruise Excursion</title></head><body><h1>Page not found</h1><p><a href="/">Puerto Plata home</a></p></body></html>';
     let contentType = "text/html; charset=utf-8";
     try {
       if (context.env && context.env.ASSETS) {

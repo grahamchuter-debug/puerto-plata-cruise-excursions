@@ -2,16 +2,17 @@
   "_comment": "GENERATED FROM CARIBBEAN AUTHORITY — DO NOT MANUALLY EDIT. Run npm run sync:schedules",
   "port": "puerto-plata",
   "portDisplayName": "Puerto Plata",
-  "syncedAt": "2026-09-04T15:43:40.893Z",
+  "syncedAt": "2026-09-17T17:41:32.099Z",
   "sourceFile": "../caribbean-shore-excursions/data/imported-schedules/puerto-plata.json",
   "source": "caribbean-shore-excursions imported schedules",
   "filter": "authority file puerto-plata.json (port-specific import)",
-  "callCount": 865,
+  "callCount": 968,
   "integrity": {
-    "total": 865,
+    "total": 968,
     "byYear": {
       "2026": 283,
-      "2027": 582
+      "2027": 582,
+      "2028": 103
     },
     "byMonth": {
       "2026-06": 20,
@@ -32,15 +33,22 @@
       "2027-09": 28,
       "2027-10": 33,
       "2027-11": 58,
-      "2027-12": 76
+      "2027-12": 76,
+      "2028-01": 24,
+      "2028-02": 26,
+      "2028-03": 32,
+      "2028-04": 18,
+      "2028-05": 1,
+      "2028-11": 1,
+      "2028-12": 1
     },
     "firstDate": "2026-06-03",
-    "lastDate": "2027-12-31",
-    "uniqueShips": 93,
-    "cruiseLines": 11,
-    "populatedMonths": 19,
+    "lastDate": "2028-12-22",
+    "uniqueShips": 100,
+    "cruiseLines": 12,
+    "populatedMonths": 26,
     "duplicateFingerprints": 0,
-    "has2028": false
+    "has2028": true
   },
   "cruiseLineList": [
     "Carnival Cruise Line",
@@ -51,6 +59,7 @@
     "Norwegian Cruise Line",
     "Oceania Cruises",
     "Princess Cruises",
+    "Regent Seven Seas",
     "Royal Caribbean",
     "Silversea",
     "Verify with cruise line"
@@ -61,6 +70,7 @@
     "Brilliance Of The Seas",
     "Brilliant Lady",
     "Caribbean Princess",
+    "Carnival Breeze",
     "Carnival Celebration",
     "Carnival Conquest",
     "Carnival Dream",
@@ -75,10 +85,13 @@
     "Carnival Spirit",
     "Carnival Sunrise",
     "Carnival Sunshine",
+    "Carnival Valor",
     "Carnival Venezia",
     "Carnival Vista",
     "Celebrity Apex",
+    "Celebrity Ascent",
     "Celebrity Beyond",
+    "Celebrity Eclipse",
     "Celebrity Reflection",
     "Celebrity Silhouette",
     "Celebrity Summit",
@@ -134,9 +147,12 @@
     "Oasis Of The Seas",
     "Oceania Marina",
     "Oceania Sirena",
+    "Oceania Sonata",
+    "Oceania Vista",
     "Odyssey Of The Seas",
     "Regal Princess",
     "Resilient Lady",
+    "Rotterdam",
     "Scarlet Lady",
     "Seven Seas Grandeur",
     "Seven Seas Mariner",
@@ -169,7 +185,14 @@
     "2027-09",
     "2027-10",
     "2027-11",
-    "2027-12"
+    "2027-12",
+    "2028-01",
+    "2028-02",
+    "2028-03",
+    "2028-04",
+    "2028-05",
+    "2028-11",
+    "2028-12"
   ],
   "calls": [
     {
@@ -201,21 +224,21 @@
     },
     {
       "date": "2026-06-15",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2026-06-15",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2026-06-15",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-06-16",
@@ -291,6 +314,15 @@
     },
     {
       "date": "2026-06-25",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2026-06-25",
       "ship": "Carnival Vista",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "07:00",
@@ -308,22 +340,13 @@
       "passengers": "5,484 to 6,307"
     },
     {
-      "date": "2026-06-25",
-      "ship": "Carnival Celebration",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "5,374 to 6,338"
-    },
-    {
       "date": "2026-06-29",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:00",
+      "departure": "18:00",
       "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
+      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2026-06-29",
@@ -336,12 +359,12 @@
     },
     {
       "date": "2026-06-29",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:00",
-      "departure": "18:00",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
       "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-06-30",
@@ -435,15 +458,6 @@
     },
     {
       "date": "2026-07-09",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
-    },
-    {
-      "date": "2026-07-09",
       "ship": "Carnival Celebration",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "08:00",
@@ -452,13 +466,13 @@
       "passengers": "5,374 to 6,338"
     },
     {
-      "date": "2026-07-13",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
+      "date": "2026-07-09",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
       "arrival": "07:00",
       "departure": "15:00",
       "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
+      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2026-07-13",
@@ -468,6 +482,15 @@
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2026-07-13",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-07-14",
@@ -516,6 +539,15 @@
     },
     {
       "date": "2026-07-21",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2026-07-21",
       "ship": "Celebrity Beyond",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "08:00",
@@ -531,15 +563,6 @@
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2026-07-21",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
-      "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2026-07-22",
@@ -570,21 +593,21 @@
     },
     {
       "date": "2026-07-27",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2026-07-27",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2026-07-27",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-07-28",
@@ -669,15 +692,6 @@
     },
     {
       "date": "2026-08-06",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
-    },
-    {
-      "date": "2026-08-06",
       "ship": "Caribbean Princess",
       "cruiseLine": "Princess Cruises",
       "arrival": "09:30",
@@ -686,13 +700,13 @@
       "passengers": "3,138 to 3,766"
     },
     {
-      "date": "2026-08-10",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
+      "date": "2026-08-06",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
       "arrival": "07:00",
       "departure": "15:00",
       "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
+      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2026-08-10",
@@ -702,6 +716,15 @@
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2026-08-10",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-08-11",
@@ -759,6 +782,15 @@
     },
     {
       "date": "2026-08-18",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2026-08-18",
       "ship": "Celebrity Beyond",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "08:00",
@@ -774,15 +806,6 @@
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2026-08-18",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
-      "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2026-08-19",
@@ -813,21 +836,21 @@
     },
     {
       "date": "2026-08-24",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2026-08-24",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2026-08-24",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-08-25",
@@ -939,21 +962,21 @@
     },
     {
       "date": "2026-09-07",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2026-09-07",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2026-09-07",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-09-08",
@@ -1011,6 +1034,15 @@
     },
     {
       "date": "2026-09-15",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2026-09-15",
       "ship": "Celebrity Beyond",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "08:00",
@@ -1026,15 +1058,6 @@
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2026-09-15",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
-      "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2026-09-16",
@@ -1074,21 +1097,21 @@
     },
     {
       "date": "2026-09-21",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2026-09-21",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2026-09-21",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-09-22",
@@ -1146,21 +1169,21 @@
     },
     {
       "date": "2026-09-29",
-      "ship": "Celebrity Beyond",
-      "cruiseLine": "Celebrity Cruises",
-      "arrival": "08:00",
-      "departure": "14:30",
-      "timeInPort": "6h 30m",
-      "passengers": "3,276 to 3,950"
-    },
-    {
-      "date": "2026-09-29",
       "ship": "Carnival Vista",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "10:30",
       "departure": "18:30",
       "timeInPort": "8h",
       "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2026-09-29",
+      "ship": "Celebrity Beyond",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "14:30",
+      "timeInPort": "6h 30m",
+      "passengers": "3,276 to 3,950"
     },
     {
       "date": "2026-09-30",
@@ -1200,15 +1223,6 @@
     },
     {
       "date": "2026-10-05",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2026-10-05",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
@@ -1217,13 +1231,13 @@
       "passengers": "5,240 to 6,774"
     },
     {
-      "date": "2026-10-06",
-      "ship": "Mardi Gras",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "5,282 to 6,338"
+      "date": "2026-10-05",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-10-06",
@@ -1233,6 +1247,15 @@
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "2,500 to 3,500"
+    },
+    {
+      "date": "2026-10-06",
+      "ship": "Mardi Gras",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "5,282 to 6,338"
     },
     {
       "date": "2026-10-06",
@@ -1272,6 +1295,15 @@
     },
     {
       "date": "2026-10-13",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2026-10-13",
       "ship": "Celebrity Beyond",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "08:00",
@@ -1287,15 +1319,6 @@
       "departure": "18:00",
       "timeInPort": "10h",
       "passengers": "3,560 to 4,272"
-    },
-    {
-      "date": "2026-10-13",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
-      "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2026-10-14",
@@ -1344,21 +1367,21 @@
     },
     {
       "date": "2026-10-19",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2026-10-19",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2026-10-19",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-10-20",
@@ -1380,12 +1403,12 @@
     },
     {
       "date": "2026-10-22",
-      "ship": "Disney Destiny",
-      "cruiseLine": "Disney Cruise Line",
-      "arrival": "08:30",
-      "departure": "16:00",
-      "timeInPort": "7h 30m",
-      "passengers": null
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": "5,374 to 6,338"
     },
     {
       "date": "2026-10-22",
@@ -1398,12 +1421,21 @@
     },
     {
       "date": "2026-10-22",
-      "ship": "Carnival Celebration",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "11:00",
-      "departure": "19:00",
-      "timeInPort": "8h",
-      "passengers": "5,374 to 6,338"
+      "ship": "Disney Destiny",
+      "cruiseLine": "Disney Cruise Line",
+      "arrival": "08:30",
+      "departure": "16:00",
+      "timeInPort": "7h 30m",
+      "passengers": null
+    },
+    {
+      "date": "2026-10-26",
+      "ship": "Caribbean Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": "3,138 to 3,766"
     },
     {
       "date": "2026-10-26",
@@ -1415,13 +1447,13 @@
       "passengers": "3,571 to 4,224"
     },
     {
-      "date": "2026-10-26",
-      "ship": "Caribbean Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "09:00",
-      "departure": "18:00",
-      "timeInPort": "9h",
-      "passengers": "3,138 to 3,766"
+      "date": "2026-10-27",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2026-10-27",
@@ -1440,15 +1472,6 @@
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "2,104 to 2,525"
-    },
-    {
-      "date": "2026-10-27",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
-      "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2026-10-28",
@@ -1524,21 +1547,21 @@
     },
     {
       "date": "2026-11-02",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2026-11-02",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2026-11-02",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-11-03",
@@ -1614,15 +1637,6 @@
     },
     {
       "date": "2026-11-10",
-      "ship": "Norwegian Aqua",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2026-11-10",
       "ship": "Carnival Conquest",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "09:00",
@@ -1632,21 +1646,30 @@
     },
     {
       "date": "2026-11-10",
-      "ship": "Resilient Lady",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "10:00",
-      "departure": "19:00",
-      "timeInPort": "9h",
-      "passengers": "2,770 to 2,860"
-    },
-    {
-      "date": "2026-11-10",
       "ship": "Carnival Vista",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "10:30",
       "departure": "18:30",
       "timeInPort": "8h",
       "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2026-11-10",
+      "ship": "Norwegian Aqua",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
+    },
+    {
+      "date": "2026-11-10",
+      "ship": "Resilient Lady",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "10:00",
+      "departure": "19:00",
+      "timeInPort": "9h",
+      "passengers": "2,770 to 2,860"
     },
     {
       "date": "2026-11-11",
@@ -1659,21 +1682,21 @@
     },
     {
       "date": "2026-11-11",
-      "ship": "Mardi Gras",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2026-11-11",
       "ship": "Explora III",
       "cruiseLine": "Verify with cruise line",
       "arrival": "09:00",
       "departure": "16:00",
       "timeInPort": "7h",
       "passengers": "922 to 1,473"
+    },
+    {
+      "date": "2026-11-11",
+      "ship": "Mardi Gras",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "5,282 to 6,338"
     },
     {
       "date": "2026-11-12",
@@ -1704,21 +1727,21 @@
     },
     {
       "date": "2026-11-13",
-      "ship": "Norwegian Getaway",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "10:30",
-      "departure": "19:00",
-      "timeInPort": "8h 30m",
-      "passengers": "3,957 to 4,819"
-    },
-    {
-      "date": "2026-11-13",
       "ship": "Celebrity Xcel",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "11:30",
       "departure": "18:00",
       "timeInPort": "6h 30m",
       "passengers": "3,260 to 3,521"
+    },
+    {
+      "date": "2026-11-13",
+      "ship": "Norwegian Getaway",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "10:30",
+      "departure": "19:00",
+      "timeInPort": "8h 30m",
+      "passengers": "3,957 to 4,819"
     },
     {
       "date": "2026-11-14",
@@ -1758,21 +1781,21 @@
     },
     {
       "date": "2026-11-17",
-      "ship": "Norwegian Aqua",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2026-11-17",
       "ship": "Disney Dream",
       "cruiseLine": "Disney Cruise Line",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "2,500 to 3,500"
+    },
+    {
+      "date": "2026-11-17",
+      "ship": "Norwegian Aqua",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-11-17",
@@ -1857,15 +1880,6 @@
     },
     {
       "date": "2026-11-23",
-      "ship": "Sky Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,668 to 4,402"
-    },
-    {
-      "date": "2026-11-23",
       "ship": "Celebrity Apex",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "09:30",
@@ -1874,13 +1888,22 @@
       "passengers": "3,260 to 3,521"
     },
     {
-      "date": "2026-11-24",
-      "ship": "Norwegian Aqua",
-      "cruiseLine": "Norwegian Cruise Line",
+      "date": "2026-11-23",
+      "ship": "Sky Princess",
+      "cruiseLine": "Princess Cruises",
       "arrival": "07:00",
-      "departure": "15:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,668 to 4,402"
+    },
+    {
+      "date": "2026-11-24",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
       "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
+      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2026-11-24",
@@ -1902,21 +1925,21 @@
     },
     {
       "date": "2026-11-24",
+      "ship": "Norwegian Aqua",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
+    },
+    {
+      "date": "2026-11-24",
       "ship": "Resilient Lady",
       "cruiseLine": "Verify with cruise line",
       "arrival": "10:00",
       "departure": "19:00",
       "timeInPort": "9h",
       "passengers": "2,770 to 2,860"
-    },
-    {
-      "date": "2026-11-24",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
-      "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2026-11-25",
@@ -1929,15 +1952,6 @@
     },
     {
       "date": "2026-11-25",
-      "ship": "Mardi Gras",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2026-11-25",
       "ship": "MSC Grandiosa",
       "cruiseLine": "MSC Cruises",
       "arrival": "08:00",
@@ -1946,13 +1960,22 @@
       "passengers": "4,888 to 6,334"
     },
     {
-      "date": "2026-11-26",
-      "ship": "Norwegian Jewel",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
+      "date": "2026-11-25",
+      "ship": "Mardi Gras",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
       "timeInPort": "9h",
-      "passengers": "2,388 to 2,866"
+      "passengers": "5,282 to 6,338"
+    },
+    {
+      "date": "2026-11-26",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": "5,374 to 6,338"
     },
     {
       "date": "2026-11-26",
@@ -1965,21 +1988,21 @@
     },
     {
       "date": "2026-11-26",
-      "ship": "Carnival Celebration",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "11:00",
-      "departure": "19:00",
-      "timeInPort": "8h",
-      "passengers": "5,374 to 6,338"
+      "ship": "Norwegian Jewel",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "2,388 to 2,866"
     },
     {
       "date": "2026-11-27",
-      "ship": "Sun Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "08:00",
-      "departure": "16:00",
-      "timeInPort": "8h",
-      "passengers": "928"
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "11:30",
+      "departure": "18:00",
+      "timeInPort": "6h 30m",
+      "passengers": "5,490 to 6,314"
     },
     {
       "date": "2026-11-27",
@@ -1992,12 +2015,12 @@
     },
     {
       "date": "2026-11-27",
-      "ship": "Allure Of The Seas",
-      "cruiseLine": "Royal Caribbean",
-      "arrival": "11:30",
-      "departure": "18:00",
-      "timeInPort": "6h 30m",
-      "passengers": "5,490 to 6,314"
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": "928"
     },
     {
       "date": "2026-11-28",
@@ -2100,21 +2123,21 @@
     },
     {
       "date": "2026-12-03",
-      "ship": "Carnival Sunshine",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,012 to 3,765"
-    },
-    {
-      "date": "2026-12-03",
       "ship": "Adventure Of The Seas",
       "cruiseLine": "Royal Caribbean",
       "arrival": "08:00",
       "departure": "18:00",
       "timeInPort": "10h",
       "passengers": "3,382 to 4,058"
+    },
+    {
+      "date": "2026-12-03",
+      "ship": "Carnival Sunshine",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,012 to 3,765"
     },
     {
       "date": "2026-12-03",
@@ -2127,21 +2150,21 @@
     },
     {
       "date": "2026-12-04",
-      "ship": "Sky Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "10:00",
-      "departure": "18:00",
-      "timeInPort": "8h",
-      "passengers": "3,668 to 4,402"
-    },
-    {
-      "date": "2026-12-04",
       "ship": "Independence Of The Seas",
       "cruiseLine": "Royal Caribbean",
       "arrival": "11:00",
       "departure": "18:00",
       "timeInPort": "7h",
       "passengers": "3,630 to 4,356"
+    },
+    {
+      "date": "2026-12-04",
+      "ship": "Sky Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "passengers": "3,668 to 4,402"
     },
     {
       "date": "2026-12-05",
@@ -2163,6 +2186,15 @@
     },
     {
       "date": "2026-12-07",
+      "ship": "Brilliant Lady",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "10:00",
+      "departure": "19:00",
+      "timeInPort": "9h",
+      "passengers": "2,770 to 2,860"
+    },
+    {
+      "date": "2026-12-07",
       "ship": "Celebrity Apex",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "09:30",
@@ -2171,13 +2203,13 @@
       "passengers": "3,260 to 3,521"
     },
     {
-      "date": "2026-12-07",
-      "ship": "Brilliant Lady",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "10:00",
-      "departure": "19:00",
-      "timeInPort": "9h",
-      "passengers": "2,770 to 2,860"
+      "date": "2026-12-08",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2026-12-08",
@@ -2198,13 +2230,13 @@
       "passengers": "1,258 to 1,447"
     },
     {
-      "date": "2026-12-08",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
-      "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
+      "date": "2026-12-09",
+      "ship": "MSC Grandiosa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "4,888 to 6,334"
     },
     {
       "date": "2026-12-09",
@@ -2214,15 +2246,6 @@
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2026-12-09",
-      "ship": "MSC Grandiosa",
-      "cruiseLine": "MSC Cruises",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "4,888 to 6,334"
     },
     {
       "date": "2026-12-09",
@@ -2244,15 +2267,6 @@
     },
     {
       "date": "2026-12-10",
-      "ship": "Sky Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "09:00",
-      "departure": "18:00",
-      "timeInPort": "9h",
-      "passengers": "3,668 to 4,402"
-    },
-    {
-      "date": "2026-12-10",
       "ship": "Resilient Lady",
       "cruiseLine": "Verify with cruise line",
       "arrival": "10:00",
@@ -2261,13 +2275,22 @@
       "passengers": "2,770 to 2,860"
     },
     {
-      "date": "2026-12-11",
-      "ship": "Sun Princess",
+      "date": "2026-12-10",
+      "ship": "Sky Princess",
       "cruiseLine": "Princess Cruises",
-      "arrival": "08:00",
-      "departure": "16:00",
-      "timeInPort": "8h",
-      "passengers": "928"
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": "3,668 to 4,402"
+    },
+    {
+      "date": "2026-12-11",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "11:30",
+      "departure": "18:00",
+      "timeInPort": "6h 30m",
+      "passengers": "5,490 to 6,314"
     },
     {
       "date": "2026-12-11",
@@ -2289,21 +2312,12 @@
     },
     {
       "date": "2026-12-11",
-      "ship": "Allure Of The Seas",
-      "cruiseLine": "Royal Caribbean",
-      "arrival": "11:30",
-      "departure": "18:00",
-      "timeInPort": "6h 30m",
-      "passengers": "5,490 to 6,314"
-    },
-    {
-      "date": "2026-12-13",
-      "ship": "Norwegian Escape",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "09:00",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "08:00",
       "departure": "16:00",
-      "timeInPort": "7h",
-      "passengers": "4,266 to 5,218"
+      "timeInPort": "8h",
+      "passengers": "928"
     },
     {
       "date": "2026-12-13",
@@ -2315,22 +2329,13 @@
       "passengers": "2,144 to 2,573"
     },
     {
-      "date": "2026-12-14",
-      "ship": "MSC World America",
-      "cruiseLine": "MSC Cruises",
+      "date": "2026-12-13",
+      "ship": "Norwegian Escape",
+      "cruiseLine": "Norwegian Cruise Line",
       "arrival": "09:00",
-      "departure": "17:00",
-      "timeInPort": "8h",
-      "passengers": "5,240 to 6,774"
-    },
-    {
-      "date": "2026-12-14",
-      "ship": "Regal Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "09:00",
-      "departure": "18:00",
-      "timeInPort": "9h",
-      "passengers": "3,560 to 4,272"
+      "departure": "16:00",
+      "timeInPort": "7h",
+      "passengers": "4,266 to 5,218"
     },
     {
       "date": "2026-12-14",
@@ -2343,12 +2348,39 @@
     },
     {
       "date": "2026-12-14",
+      "ship": "MSC World America",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2026-12-14",
       "ship": "Norwegian Bliss",
       "cruiseLine": "Norwegian Cruise Line",
       "arrival": "11:00",
       "departure": "19:00",
       "timeInPort": "8h",
       "passengers": "4,004 to 4,903"
+    },
+    {
+      "date": "2026-12-14",
+      "ship": "Regal Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": "3,560 to 4,272"
+    },
+    {
+      "date": "2026-12-15",
+      "ship": "Carnival Magic",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "3,690 to 4,428"
     },
     {
       "date": "2026-12-15",
@@ -2367,15 +2399,6 @@
       "departure": "15:00",
       "timeInPort": "8h",
       "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2026-12-15",
-      "ship": "Carnival Magic",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "3,690 to 4,428"
     },
     {
       "date": "2026-12-15",
@@ -2424,15 +2447,6 @@
     },
     {
       "date": "2026-12-21",
-      "ship": "Zuiderdam",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "09:00",
-      "departure": "18:00",
-      "timeInPort": "9h",
-      "passengers": "1,970 to 2,364"
-    },
-    {
-      "date": "2026-12-21",
       "ship": "Celebrity Apex",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "09:30",
@@ -2450,13 +2464,13 @@
       "passengers": "2,770 to 2,860"
     },
     {
-      "date": "2026-12-22",
-      "ship": "Norwegian Aqua",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
+      "date": "2026-12-21",
+      "ship": "Zuiderdam",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": "1,970 to 2,364"
     },
     {
       "date": "2026-12-22",
@@ -2477,13 +2491,13 @@
       "passengers": "5,282 to 6,338"
     },
     {
-      "date": "2026-12-23",
-      "ship": "Carnival Sunshine",
-      "cruiseLine": "Carnival Cruise Line",
+      "date": "2026-12-22",
+      "ship": "Norwegian Aqua",
+      "cruiseLine": "Norwegian Cruise Line",
       "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,012 to 3,765"
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2026-12-23",
@@ -2493,6 +2507,15 @@
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2026-12-23",
+      "ship": "Carnival Sunshine",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,012 to 3,765"
     },
     {
       "date": "2026-12-23",
@@ -2514,15 +2537,6 @@
     },
     {
       "date": "2026-12-24",
-      "ship": "Sky Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "09:00",
-      "departure": "18:00",
-      "timeInPort": "9h",
-      "passengers": "3,668 to 4,402"
-    },
-    {
-      "date": "2026-12-24",
       "ship": "Norwegian Getaway",
       "cruiseLine": "Norwegian Cruise Line",
       "arrival": "11:00",
@@ -2531,13 +2545,22 @@
       "passengers": "3,957 to 4,819"
     },
     {
-      "date": "2026-12-25",
-      "ship": "Norwegian Escape",
-      "cruiseLine": "Norwegian Cruise Line",
+      "date": "2026-12-24",
+      "ship": "Sky Princess",
+      "cruiseLine": "Princess Cruises",
       "arrival": "09:00",
-      "departure": "16:00",
-      "timeInPort": "7h",
-      "passengers": "4,266 to 5,218"
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": "3,668 to 4,402"
+    },
+    {
+      "date": "2026-12-25",
+      "ship": "Celebrity Xcel",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "11:59",
+      "departure": "18:00",
+      "timeInPort": "6h 1m",
+      "passengers": "3,260 to 3,521"
     },
     {
       "date": "2026-12-25",
@@ -2550,12 +2573,12 @@
     },
     {
       "date": "2026-12-25",
-      "ship": "Celebrity Xcel",
-      "cruiseLine": "Celebrity Cruises",
-      "arrival": "11:59",
-      "departure": "18:00",
-      "timeInPort": "6h 1m",
-      "passengers": "3,260 to 3,521"
+      "ship": "Norwegian Escape",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "09:00",
+      "departure": "16:00",
+      "timeInPort": "7h",
+      "passengers": "4,266 to 5,218"
     },
     {
       "date": "2026-12-26",
@@ -2577,15 +2600,6 @@
     },
     {
       "date": "2026-12-28",
-      "ship": "Mein Schiff 5",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "18:00",
-      "timeInPort": "10h",
-      "passengers": "2,534 to 2,700"
-    },
-    {
-      "date": "2026-12-28",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
@@ -2595,39 +2609,21 @@
     },
     {
       "date": "2026-12-28",
+      "ship": "Mein Schiff 5",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "passengers": "2,534 to 2,700"
+    },
+    {
+      "date": "2026-12-28",
       "ship": "Regal Princess",
       "cruiseLine": "Princess Cruises",
       "arrival": "10:00",
       "departure": "17:00",
       "timeInPort": "7h",
       "passengers": "3,560 to 4,272"
-    },
-    {
-      "date": "2026-12-29",
-      "ship": "Norwegian Aqua",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2026-12-29",
-      "ship": "Explora I",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "922 to 1,473"
-    },
-    {
-      "date": "2026-12-29",
-      "ship": "Star Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "928"
     },
     {
       "date": "2026-12-29",
@@ -2646,6 +2642,33 @@
       "departure": "18:00",
       "timeInPort": "8h",
       "passengers": "3,012 to 3,765"
+    },
+    {
+      "date": "2026-12-29",
+      "ship": "Explora I",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "922 to 1,473"
+    },
+    {
+      "date": "2026-12-29",
+      "ship": "Norwegian Aqua",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
+    },
+    {
+      "date": "2026-12-29",
+      "ship": "Star Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "928"
     },
     {
       "date": "2026-12-30",
@@ -2667,21 +2690,21 @@
     },
     {
       "date": "2026-12-30",
-      "ship": "Mardi Gras",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2026-12-30",
       "ship": "MSC Seashore",
       "cruiseLine": "MSC Cruises",
       "arrival": "08:00",
       "departure": "18:00",
       "timeInPort": "10h",
       "passengers": "4,560 to 5,877"
+    },
+    {
+      "date": "2026-12-30",
+      "ship": "Mardi Gras",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "5,282 to 6,338"
     },
     {
       "date": "2026-12-31",
@@ -2691,15 +2714,6 @@
       "departure": "16:00",
       "timeInPort": "9h",
       "passengers": "2,150 to 2,580"
-    },
-    {
-      "date": "2026-12-31",
-      "ship": "Norwegian Pearl",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "2,394 to 2,873"
     },
     {
       "date": "2026-12-31",
@@ -2720,13 +2734,13 @@
       "passengers": "2,650 to 3,194"
     },
     {
-      "date": "2027-01-01",
-      "ship": "Norwegian Escape",
+      "date": "2026-12-31",
+      "ship": "Norwegian Pearl",
       "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "09:00",
-      "departure": "16:00",
-      "timeInPort": "7h",
-      "passengers": "4,266 to 5,218"
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "2,394 to 2,873"
     },
     {
       "date": "2027-01-01",
@@ -2736,6 +2750,15 @@
       "departure": "18:00",
       "timeInPort": "8h 30m",
       "passengers": "3,282 to 3,938"
+    },
+    {
+      "date": "2027-01-01",
+      "ship": "Norwegian Escape",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "09:00",
+      "departure": "16:00",
+      "timeInPort": "7h",
+      "passengers": "4,266 to 5,218"
     },
     {
       "date": "2027-01-01",
@@ -2757,21 +2780,21 @@
     },
     {
       "date": "2027-01-02",
-      "ship": "Norwegian Jewel",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "10:00",
-      "departure": "18:00",
-      "timeInPort": "8h",
-      "passengers": "2,388 to 2,866"
-    },
-    {
-      "date": "2027-01-02",
       "ship": "Norwegian Getaway",
       "cruiseLine": "Norwegian Cruise Line",
       "arrival": "10:30",
       "departure": "18:00",
       "timeInPort": "7h 30m",
       "passengers": "3,957 to 4,819"
+    },
+    {
+      "date": "2027-01-02",
+      "ship": "Norwegian Jewel",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "passengers": "2,388 to 2,866"
     },
     {
       "date": "2027-01-03",
@@ -2793,21 +2816,21 @@
     },
     {
       "date": "2027-01-05",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2027-01-05",
       "ship": "Celebrity Beyond",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "07:00",
       "departure": "14:00",
       "timeInPort": "7h",
       "passengers": "3,276 to 3,950"
-    },
-    {
-      "date": "2027-01-05",
-      "ship": "Norwegian Aqua",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2027-01-05",
@@ -2820,12 +2843,12 @@
     },
     {
       "date": "2027-01-05",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
+      "ship": "Norwegian Aqua",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
       "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2027-01-06",
@@ -2847,15 +2870,6 @@
     },
     {
       "date": "2027-01-06",
-      "ship": "Mardi Gras",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2027-01-06",
       "ship": "MSC Grandiosa",
       "cruiseLine": "MSC Cruises",
       "arrival": "08:00",
@@ -2865,30 +2879,21 @@
     },
     {
       "date": "2027-01-06",
+      "ship": "Mardi Gras",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "5,282 to 6,338"
+    },
+    {
+      "date": "2027-01-06",
       "ship": "Norwegian Pearl",
       "cruiseLine": "Norwegian Cruise Line",
       "arrival": "11:00",
       "departure": "18:00",
       "timeInPort": "7h",
       "passengers": "2,394 to 2,873"
-    },
-    {
-      "date": "2027-01-07",
-      "ship": "Sky Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "09:00",
-      "departure": "18:00",
-      "timeInPort": "9h",
-      "passengers": "3,668 to 4,402"
-    },
-    {
-      "date": "2027-01-07",
-      "ship": "Resilient Lady",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "10:00",
-      "departure": "19:00",
-      "timeInPort": "9h",
-      "passengers": "2,770 to 2,860"
     },
     {
       "date": "2027-01-07",
@@ -2909,13 +2914,31 @@
       "passengers": "4,004 to 4,903"
     },
     {
-      "date": "2027-01-08",
-      "ship": "Sun Princess",
+      "date": "2027-01-07",
+      "ship": "Resilient Lady",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "10:00",
+      "departure": "19:00",
+      "timeInPort": "9h",
+      "passengers": "2,770 to 2,860"
+    },
+    {
+      "date": "2027-01-07",
+      "ship": "Sky Princess",
       "cruiseLine": "Princess Cruises",
-      "arrival": "08:00",
-      "departure": "16:00",
-      "timeInPort": "8h",
-      "passengers": "928"
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": "3,668 to 4,402"
+    },
+    {
+      "date": "2027-01-08",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "11:30",
+      "departure": "18:00",
+      "timeInPort": "6h 30m",
+      "passengers": "5,490 to 6,314"
     },
     {
       "date": "2027-01-08",
@@ -2937,12 +2960,12 @@
     },
     {
       "date": "2027-01-08",
-      "ship": "Allure Of The Seas",
-      "cruiseLine": "Royal Caribbean",
-      "arrival": "11:30",
-      "departure": "18:00",
-      "timeInPort": "6h 30m",
-      "passengers": "5,490 to 6,314"
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": "928"
     },
     {
       "date": "2027-01-09",
@@ -2955,6 +2978,15 @@
     },
     {
       "date": "2027-01-11",
+      "ship": "MSC World America",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2027-01-11",
       "ship": "Mein Schiff 5",
       "cruiseLine": "Verify with cruise line",
       "arrival": "08:00",
@@ -2963,13 +2995,13 @@
       "passengers": "2,534 to 2,700"
     },
     {
-      "date": "2027-01-11",
-      "ship": "MSC World America",
-      "cruiseLine": "MSC Cruises",
+      "date": "2027-01-12",
+      "ship": "Carnival Dream",
+      "cruiseLine": "Carnival Cruise Line",
       "arrival": "09:00",
-      "departure": "17:00",
-      "timeInPort": "8h",
-      "passengers": "5,240 to 6,774"
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": "3,626 to 4,533"
     },
     {
       "date": "2027-01-12",
@@ -2988,15 +3020,6 @@
       "departure": "18:00",
       "timeInPort": "10h",
       "passengers": "928"
-    },
-    {
-      "date": "2027-01-12",
-      "ship": "Carnival Dream",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "09:00",
-      "departure": "18:00",
-      "timeInPort": "9h",
-      "passengers": "3,626 to 4,533"
     },
     {
       "date": "2027-01-13",
@@ -3045,21 +3068,21 @@
     },
     {
       "date": "2027-01-15",
-      "ship": "Sky Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "09:00",
-      "departure": "18:00",
-      "timeInPort": "9h",
-      "passengers": "3,668 to 4,402"
-    },
-    {
-      "date": "2027-01-15",
       "ship": "Celebrity Xcel",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "11:30",
       "departure": "18:00",
       "timeInPort": "6h 30m",
       "passengers": "3,260 to 3,521"
+    },
+    {
+      "date": "2027-01-15",
+      "ship": "Sky Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": "3,668 to 4,402"
     },
     {
       "date": "2027-01-17",
@@ -3072,6 +3095,15 @@
     },
     {
       "date": "2027-01-18",
+      "ship": "Brilliant Lady",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "10:00",
+      "departure": "19:00",
+      "timeInPort": "9h",
+      "passengers": "2,770 to 2,860"
+    },
+    {
+      "date": "2027-01-18",
       "ship": "Celebrity Apex",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "09:30",
@@ -3080,13 +3112,13 @@
       "passengers": "3,260 to 3,521"
     },
     {
-      "date": "2027-01-18",
-      "ship": "Brilliant Lady",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "10:00",
-      "departure": "19:00",
-      "timeInPort": "9h",
-      "passengers": "2,770 to 2,860"
+      "date": "2027-01-19",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2027-01-19",
@@ -3099,15 +3131,6 @@
     },
     {
       "date": "2027-01-19",
-      "ship": "Norwegian Aqua",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2027-01-19",
       "ship": "Explora III",
       "cruiseLine": "Verify with cruise line",
       "arrival": "09:00",
@@ -3117,21 +3140,21 @@
     },
     {
       "date": "2027-01-19",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
+      "ship": "Norwegian Aqua",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
       "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2027-01-20",
-      "ship": "Norwegian Pearl",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "14:00",
-      "timeInPort": "7h",
-      "passengers": "2,394 to 2,873"
+      "ship": "MSC Grandiosa",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "4,888 to 6,334"
     },
     {
       "date": "2027-01-20",
@@ -3144,12 +3167,12 @@
     },
     {
       "date": "2027-01-20",
-      "ship": "MSC Grandiosa",
-      "cruiseLine": "MSC Cruises",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "4,888 to 6,334"
+      "ship": "Norwegian Pearl",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "14:00",
+      "timeInPort": "7h",
+      "passengers": "2,394 to 2,873"
     },
     {
       "date": "2027-01-20",
@@ -3198,24 +3221,6 @@
     },
     {
       "date": "2027-01-22",
-      "ship": "Nieuw Statendam",
-      "cruiseLine": "Holland America Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "2,650 to 3,194"
-    },
-    {
-      "date": "2027-01-22",
-      "ship": "Sun Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "08:00",
-      "departure": "16:00",
-      "timeInPort": "8h",
-      "passengers": "928"
-    },
-    {
-      "date": "2027-01-22",
       "ship": "MSC Meraviglia",
       "cruiseLine": "MSC Cruises",
       "arrival": "10:00",
@@ -3225,12 +3230,30 @@
     },
     {
       "date": "2027-01-22",
+      "ship": "Nieuw Statendam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "2,650 to 3,194"
+    },
+    {
+      "date": "2027-01-22",
       "ship": "Norwegian Getaway",
       "cruiseLine": "Norwegian Cruise Line",
       "arrival": "10:30",
       "departure": "19:00",
       "timeInPort": "8h 30m",
       "passengers": "3,957 to 4,819"
+    },
+    {
+      "date": "2027-01-22",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": "928"
     },
     {
       "date": "2027-01-24",
@@ -3423,6 +3446,15 @@
     },
     {
       "date": "2027-02-02",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2027-02-02",
       "ship": "Celebrity Beyond",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "07:00",
@@ -3440,15 +3472,6 @@
       "passengers": "3,571 to 4,224"
     },
     {
-      "date": "2027-02-02",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
-      "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
-    },
-    {
       "date": "2027-02-03",
       "ship": "Carnival Magic",
       "cruiseLine": "Carnival Cruise Line",
@@ -3459,21 +3482,21 @@
     },
     {
       "date": "2027-02-03",
-      "ship": "Mardi Gras",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2027-02-03",
       "ship": "MSC Grandiosa",
       "cruiseLine": "MSC Cruises",
       "arrival": "08:00",
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "4,888 to 6,334"
+    },
+    {
+      "date": "2027-02-03",
+      "ship": "Mardi Gras",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "5,282 to 6,338"
     },
     {
       "date": "2027-02-04",
@@ -3486,21 +3509,21 @@
     },
     {
       "date": "2027-02-04",
-      "ship": "Sky Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "09:00",
-      "departure": "18:00",
-      "timeInPort": "9h",
-      "passengers": "3,668 to 4,402"
-    },
-    {
-      "date": "2027-02-04",
       "ship": "Norwegian Bliss",
       "cruiseLine": "Norwegian Cruise Line",
       "arrival": "11:00",
       "departure": "19:00",
       "timeInPort": "8h",
       "passengers": "4,004 to 4,903"
+    },
+    {
+      "date": "2027-02-04",
+      "ship": "Sky Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": "3,668 to 4,402"
     },
     {
       "date": "2027-02-05",
@@ -3513,12 +3536,12 @@
     },
     {
       "date": "2027-02-05",
-      "ship": "Sun Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "08:00",
-      "departure": "16:00",
-      "timeInPort": "8h",
-      "passengers": "928"
+      "ship": "Celebrity Xcel",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "11:30",
+      "departure": "18:00",
+      "timeInPort": "6h 30m",
+      "passengers": "3,260 to 3,521"
     },
     {
       "date": "2027-02-05",
@@ -3531,12 +3554,12 @@
     },
     {
       "date": "2027-02-05",
-      "ship": "Celebrity Xcel",
-      "cruiseLine": "Celebrity Cruises",
-      "arrival": "11:30",
-      "departure": "18:00",
-      "timeInPort": "6h 30m",
-      "passengers": "3,260 to 3,521"
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": "928"
     },
     {
       "date": "2027-02-07",
@@ -3576,21 +3599,21 @@
     },
     {
       "date": "2027-02-08",
-      "ship": "Mein Schiff 5",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "18:00",
-      "timeInPort": "10h",
-      "passengers": "2,534 to 2,700"
-    },
-    {
-      "date": "2027-02-08",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2027-02-08",
+      "ship": "Mein Schiff 5",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "passengers": "2,534 to 2,700"
     },
     {
       "date": "2027-02-09",
@@ -3639,6 +3662,15 @@
     },
     {
       "date": "2027-02-11",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-02-11",
       "ship": "Carnival Sunshine",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "07:00",
@@ -3654,15 +3686,6 @@
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "1,258 to 1,447"
-    },
-    {
-      "date": "2027-02-11",
-      "ship": "Carnival Celebration",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "11:00",
-      "departure": "19:00",
-      "timeInPort": "8h",
-      "passengers": "5,374 to 6,338"
     },
     {
       "date": "2027-02-12",
@@ -3720,15 +3743,6 @@
     },
     {
       "date": "2027-02-16",
-      "ship": "Norwegian Aqua",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2027-02-16",
       "ship": "Carnival Vista",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "10:30",
@@ -3744,6 +3758,15 @@
       "departure": "19:00",
       "timeInPort": "7h",
       "passengers": "928"
+    },
+    {
+      "date": "2027-02-16",
+      "ship": "Norwegian Aqua",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2027-02-17",
@@ -3801,12 +3824,12 @@
     },
     {
       "date": "2027-02-19",
-      "ship": "Sun Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "08:00",
-      "departure": "16:00",
-      "timeInPort": "8h",
-      "passengers": "928"
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "11:30",
+      "departure": "18:00",
+      "timeInPort": "6h 30m",
+      "passengers": "5,490 to 6,314"
     },
     {
       "date": "2027-02-19",
@@ -3828,12 +3851,12 @@
     },
     {
       "date": "2027-02-19",
-      "ship": "Allure Of The Seas",
-      "cruiseLine": "Royal Caribbean",
-      "arrival": "11:30",
-      "departure": "18:00",
-      "timeInPort": "6h 30m",
-      "passengers": "5,490 to 6,314"
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": "928"
     },
     {
       "date": "2027-02-20",
@@ -3864,15 +3887,6 @@
     },
     {
       "date": "2027-02-22",
-      "ship": "Mein Schiff 5",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "18:00",
-      "timeInPort": "10h",
-      "passengers": "2,534 to 2,700"
-    },
-    {
-      "date": "2027-02-22",
       "ship": "Enchanted Princess",
       "cruiseLine": "Princess Cruises",
       "arrival": "09:00",
@@ -3888,6 +3902,15 @@
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2027-02-22",
+      "ship": "Mein Schiff 5",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "passengers": "2,534 to 2,700"
     },
     {
       "date": "2027-02-23",
@@ -3972,21 +3995,21 @@
     },
     {
       "date": "2027-02-26",
-      "ship": "Sky Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "09:00",
-      "departure": "18:00",
-      "timeInPort": "9h",
-      "passengers": "3,668 to 4,402"
-    },
-    {
-      "date": "2027-02-26",
       "ship": "Celebrity Xcel",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "11:30",
       "departure": "18:00",
       "timeInPort": "6h 30m",
       "passengers": "3,260 to 3,521"
+    },
+    {
+      "date": "2027-02-26",
+      "ship": "Sky Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": "3,668 to 4,402"
     },
     {
       "date": "2027-02-27",
@@ -4044,21 +4067,21 @@
     },
     {
       "date": "2027-03-02",
-      "ship": "Sun Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "09:00",
-      "departure": "17:00",
-      "timeInPort": "8h",
-      "passengers": "928"
-    },
-    {
-      "date": "2027-03-02",
       "ship": "Oceania Marina",
       "cruiseLine": "Oceania Cruises",
       "arrival": "11:00",
       "departure": "20:00",
       "timeInPort": "9h",
       "passengers": "1,258 to 1,447"
+    },
+    {
+      "date": "2027-03-02",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": "928"
     },
     {
       "date": "2027-03-03",
@@ -4071,21 +4094,21 @@
     },
     {
       "date": "2027-03-03",
-      "ship": "Mardi Gras",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2027-03-03",
       "ship": "MSC Grandiosa",
       "cruiseLine": "MSC Cruises",
       "arrival": "08:00",
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "4,888 to 6,334"
+    },
+    {
+      "date": "2027-03-03",
+      "ship": "Mardi Gras",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "5,282 to 6,338"
     },
     {
       "date": "2027-03-03",
@@ -4116,15 +4139,6 @@
     },
     {
       "date": "2027-03-04",
-      "ship": "Nieuw Statendam",
-      "cruiseLine": "Holland America Line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "2,650 to 3,194"
-    },
-    {
-      "date": "2027-03-04",
       "ship": "Margaritaville At Sea Beachcomber",
       "cruiseLine": "Verify with cruise line",
       "arrival": "09:00",
@@ -4134,12 +4148,30 @@
     },
     {
       "date": "2027-03-04",
+      "ship": "Nieuw Statendam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "2,650 to 3,194"
+    },
+    {
+      "date": "2027-03-04",
       "ship": "Norwegian Bliss",
       "cruiseLine": "Norwegian Cruise Line",
       "arrival": "11:00",
       "departure": "19:00",
       "timeInPort": "8h",
       "passengers": "4,004 to 4,903"
+    },
+    {
+      "date": "2027-03-05",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "11:30",
+      "departure": "18:00",
+      "timeInPort": "6h 30m",
+      "passengers": "5,490 to 6,314"
     },
     {
       "date": "2027-03-05",
@@ -4158,15 +4190,6 @@
       "departure": "18:00",
       "timeInPort": "7h",
       "passengers": "2,394 to 2,873"
-    },
-    {
-      "date": "2027-03-05",
-      "ship": "Allure Of The Seas",
-      "cruiseLine": "Royal Caribbean",
-      "arrival": "11:30",
-      "departure": "18:00",
-      "timeInPort": "6h 30m",
-      "passengers": "5,490 to 6,314"
     },
     {
       "date": "2027-03-06",
@@ -4188,21 +4211,21 @@
     },
     {
       "date": "2027-03-08",
-      "ship": "Mein Schiff 5",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "18:00",
-      "timeInPort": "10h",
-      "passengers": "2,534 to 2,700"
-    },
-    {
-      "date": "2027-03-08",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2027-03-08",
+      "ship": "Mein Schiff 5",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "passengers": "2,534 to 2,700"
     },
     {
       "date": "2027-03-08",
@@ -4260,24 +4283,6 @@
     },
     {
       "date": "2027-03-10",
-      "ship": "Enchanted Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,668 to 4,402"
-    },
-    {
-      "date": "2027-03-10",
-      "ship": "Margaritaville At Sea Paradise",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "07:00",
-      "departure": "14:00",
-      "timeInPort": "7h",
-      "passengers": "928"
-    },
-    {
-      "date": "2027-03-10",
       "ship": "Carnival Celebration",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "08:00",
@@ -4287,12 +4292,30 @@
     },
     {
       "date": "2027-03-10",
+      "ship": "Enchanted Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,668 to 4,402"
+    },
+    {
+      "date": "2027-03-10",
       "ship": "Harmony Of The Seas",
       "cruiseLine": "Royal Caribbean",
       "arrival": "11:59",
       "departure": "19:00",
       "timeInPort": "7h 1m",
       "passengers": "5,475 to 6,314"
+    },
+    {
+      "date": "2027-03-10",
+      "ship": "Margaritaville At Sea Paradise",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "07:00",
+      "departure": "14:00",
+      "timeInPort": "7h",
+      "passengers": "928"
     },
     {
       "date": "2027-03-11",
@@ -4314,6 +4337,15 @@
     },
     {
       "date": "2027-03-15",
+      "ship": "Brilliant Lady",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "10:00",
+      "departure": "19:00",
+      "timeInPort": "9h",
+      "passengers": "2,770 to 2,860"
+    },
+    {
+      "date": "2027-03-15",
       "ship": "Celebrity Apex",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "09:30",
@@ -4322,13 +4354,13 @@
       "passengers": "3,260 to 3,521"
     },
     {
-      "date": "2027-03-15",
-      "ship": "Brilliant Lady",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "10:00",
-      "departure": "19:00",
-      "timeInPort": "9h",
-      "passengers": "2,770 to 2,860"
+      "date": "2027-03-16",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2027-03-16",
@@ -4358,15 +4390,6 @@
       "passengers": "1,970 to 2,364"
     },
     {
-      "date": "2027-03-16",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
-      "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
-    },
-    {
       "date": "2027-03-17",
       "ship": "Carnival Magic",
       "cruiseLine": "Carnival Cruise Line",
@@ -4386,21 +4409,21 @@
     },
     {
       "date": "2027-03-17",
-      "ship": "Mardi Gras",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2027-03-17",
       "ship": "MSC Grandiosa",
       "cruiseLine": "MSC Cruises",
       "arrival": "08:00",
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "4,888 to 6,334"
+    },
+    {
+      "date": "2027-03-17",
+      "ship": "Mardi Gras",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "5,282 to 6,338"
     },
     {
       "date": "2027-03-17",
@@ -4413,12 +4436,12 @@
     },
     {
       "date": "2027-03-18",
-      "ship": "Regal Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "07:00",
-      "departure": "15:00",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
       "timeInPort": "8h",
-      "passengers": "3,560 to 4,272"
+      "passengers": "5,374 to 6,338"
     },
     {
       "date": "2027-03-18",
@@ -4440,12 +4463,12 @@
     },
     {
       "date": "2027-03-18",
-      "ship": "Carnival Celebration",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "11:00",
-      "departure": "19:00",
+      "ship": "Regal Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "15:00",
       "timeInPort": "8h",
-      "passengers": "5,374 to 6,338"
+      "passengers": "3,560 to 4,272"
     },
     {
       "date": "2027-03-19",
@@ -4458,12 +4481,12 @@
     },
     {
       "date": "2027-03-19",
-      "ship": "Sun Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "08:00",
-      "departure": "16:00",
-      "timeInPort": "8h",
-      "passengers": "928"
+      "ship": "Celebrity Xcel",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "11:30",
+      "departure": "18:00",
+      "timeInPort": "6h 30m",
+      "passengers": "3,260 to 3,521"
     },
     {
       "date": "2027-03-19",
@@ -4476,12 +4499,12 @@
     },
     {
       "date": "2027-03-19",
-      "ship": "Celebrity Xcel",
-      "cruiseLine": "Celebrity Cruises",
-      "arrival": "11:30",
-      "departure": "18:00",
-      "timeInPort": "6h 30m",
-      "passengers": "3,260 to 3,521"
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": "928"
     },
     {
       "date": "2027-03-20",
@@ -4566,21 +4589,21 @@
     },
     {
       "date": "2027-03-25",
-      "ship": "Resilient Lady",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "16:00",
-      "timeInPort": "8h",
-      "passengers": "2,770 to 2,860"
-    },
-    {
-      "date": "2027-03-25",
       "ship": "Margaritaville At Sea Beachcomber",
       "cruiseLine": "Verify with cruise line",
       "arrival": "09:00",
       "departure": "16:00",
       "timeInPort": "7h",
       "passengers": "2,688 to 3,226"
+    },
+    {
+      "date": "2027-03-25",
+      "ship": "Resilient Lady",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": "2,770 to 2,860"
     },
     {
       "date": "2027-03-26",
@@ -4638,6 +4661,15 @@
     },
     {
       "date": "2027-03-30",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2027-03-30",
       "ship": "Celebrity Beyond",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "07:00",
@@ -4664,15 +4696,6 @@
       "passengers": "3,571 to 4,224"
     },
     {
-      "date": "2027-03-30",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
-      "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
-    },
-    {
       "date": "2027-03-31",
       "ship": "Carnival Magic",
       "cruiseLine": "Carnival Cruise Line",
@@ -4680,15 +4703,6 @@
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "3,690 to 4,428"
-    },
-    {
-      "date": "2027-03-31",
-      "ship": "Mardi Gras",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "5,282 to 6,338"
     },
     {
       "date": "2027-03-31",
@@ -4700,6 +4714,15 @@
       "passengers": "4,888 to 6,334"
     },
     {
+      "date": "2027-03-31",
+      "ship": "Mardi Gras",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "5,282 to 6,338"
+    },
+    {
       "date": "2027-04-01",
       "ship": "Freedom Of The Seas",
       "cruiseLine": "Royal Caribbean",
@@ -4707,6 +4730,15 @@
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "3,784 to 4,541"
+    },
+    {
+      "date": "2027-04-02",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "11:30",
+      "departure": "18:00",
+      "timeInPort": "6h 30m",
+      "passengers": "5,490 to 6,314"
     },
     {
       "date": "2027-04-02",
@@ -4734,15 +4766,6 @@
       "departure": "19:00",
       "timeInPort": "8h 30m",
       "passengers": "3,957 to 4,819"
-    },
-    {
-      "date": "2027-04-02",
-      "ship": "Allure Of The Seas",
-      "cruiseLine": "Royal Caribbean",
-      "arrival": "11:30",
-      "departure": "18:00",
-      "timeInPort": "6h 30m",
-      "passengers": "5,490 to 6,314"
     },
     {
       "date": "2027-04-03",
@@ -4773,21 +4796,21 @@
     },
     {
       "date": "2027-04-05",
-      "ship": "Norwegian Pearl",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "14:00",
-      "timeInPort": "7h",
-      "passengers": "2,394 to 2,873"
-    },
-    {
-      "date": "2027-04-05",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2027-04-05",
+      "ship": "Norwegian Pearl",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "14:00",
+      "timeInPort": "7h",
+      "passengers": "2,394 to 2,873"
     },
     {
       "date": "2027-04-06",
@@ -4836,15 +4859,6 @@
     },
     {
       "date": "2027-04-08",
-      "ship": "Seven Seas Mariner",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "07:30",
-      "departure": "15:00",
-      "timeInPort": "7h 30m",
-      "passengers": "708 to 779"
-    },
-    {
-      "date": "2027-04-08",
       "ship": "Margaritaville At Sea Beachcomber",
       "cruiseLine": "Verify with cruise line",
       "arrival": "09:00",
@@ -4853,13 +4867,13 @@
       "passengers": "2,688 to 3,226"
     },
     {
-      "date": "2027-04-09",
-      "ship": "Enchanted Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,668 to 4,402"
+      "date": "2027-04-08",
+      "ship": "Seven Seas Mariner",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "07:30",
+      "departure": "15:00",
+      "timeInPort": "7h 30m",
+      "passengers": "708 to 779"
     },
     {
       "date": "2027-04-09",
@@ -4869,6 +4883,15 @@
       "departure": "18:00",
       "timeInPort": "6h 30m",
       "passengers": "3,260 to 3,521"
+    },
+    {
+      "date": "2027-04-09",
+      "ship": "Enchanted Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,668 to 4,402"
     },
     {
       "date": "2027-04-10",
@@ -4917,24 +4940,6 @@
     },
     {
       "date": "2027-04-13",
-      "ship": "Norwegian Aqua",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2027-04-13",
-      "ship": "Harmony Of The Seas",
-      "cruiseLine": "Royal Caribbean",
-      "arrival": "08:00",
-      "departure": "18:00",
-      "timeInPort": "10h",
-      "passengers": "5,475 to 6,314"
-    },
-    {
-      "date": "2027-04-13",
       "ship": "Carnival Firenze",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "09:00",
@@ -4952,6 +4957,24 @@
       "passengers": "3,930 to 4,716"
     },
     {
+      "date": "2027-04-13",
+      "ship": "Harmony Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "passengers": "5,475 to 6,314"
+    },
+    {
+      "date": "2027-04-13",
+      "ship": "Norwegian Aqua",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
+    },
+    {
       "date": "2027-04-14",
       "ship": "Carnival Magic",
       "cruiseLine": "Carnival Cruise Line",
@@ -4962,21 +4985,21 @@
     },
     {
       "date": "2027-04-14",
-      "ship": "Mardi Gras",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2027-04-14",
       "ship": "MSC Grandiosa",
       "cruiseLine": "MSC Cruises",
       "arrival": "08:00",
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "4,888 to 6,334"
+    },
+    {
+      "date": "2027-04-14",
+      "ship": "Mardi Gras",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "5,282 to 6,338"
     },
     {
       "date": "2027-04-14",
@@ -5052,21 +5075,21 @@
     },
     {
       "date": "2027-04-27",
-      "ship": "Celebrity Beyond",
-      "cruiseLine": "Celebrity Cruises",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,276 to 3,950"
-    },
-    {
-      "date": "2027-04-27",
       "ship": "Carnival Vista",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "10:30",
       "departure": "18:30",
       "timeInPort": "8h",
       "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2027-04-27",
+      "ship": "Celebrity Beyond",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,276 to 3,950"
     },
     {
       "date": "2027-04-28",
@@ -5079,21 +5102,21 @@
     },
     {
       "date": "2027-04-28",
-      "ship": "Mardi Gras",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "5,282 to 6,338"
-    },
-    {
-      "date": "2027-04-28",
       "ship": "MSC Grandiosa",
       "cruiseLine": "MSC Cruises",
       "arrival": "08:00",
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "4,888 to 6,334"
+    },
+    {
+      "date": "2027-04-28",
+      "ship": "Mardi Gras",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "5,282 to 6,338"
     },
     {
       "date": "2027-04-29",
@@ -5133,21 +5156,21 @@
     },
     {
       "date": "2027-05-03",
-      "ship": "MSC World America",
-      "cruiseLine": "MSC Cruises",
-      "arrival": "09:00",
-      "departure": "17:00",
-      "timeInPort": "8h",
-      "passengers": "5,240 to 6,774"
-    },
-    {
-      "date": "2027-05-03",
       "ship": "Carnival Vista",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "10:00",
       "departure": "18:00",
       "timeInPort": "8h",
       "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2027-05-03",
+      "ship": "MSC World America",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": "5,240 to 6,774"
     },
     {
       "date": "2027-05-03",
@@ -5169,21 +5192,21 @@
     },
     {
       "date": "2027-05-05",
-      "ship": "Margaritaville At Sea Paradise",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "07:00",
-      "departure": "14:00",
-      "timeInPort": "7h",
-      "passengers": "928"
-    },
-    {
-      "date": "2027-05-05",
       "ship": "Celebrity Beyond",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "08:00",
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "3,276 to 3,950"
+    },
+    {
+      "date": "2027-05-05",
+      "ship": "Margaritaville At Sea Paradise",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "07:00",
+      "departure": "14:00",
+      "timeInPort": "7h",
+      "passengers": "928"
     },
     {
       "date": "2027-05-10",
@@ -5223,21 +5246,21 @@
     },
     {
       "date": "2027-05-14",
-      "ship": "Vision Of The Seas",
-      "cruiseLine": "Royal Caribbean",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "2,036 to 2,443"
-    },
-    {
-      "date": "2027-05-14",
       "ship": "Norwegian Escape",
       "cruiseLine": "Norwegian Cruise Line",
       "arrival": "09:00",
       "departure": "18:00",
       "timeInPort": "9h",
       "passengers": "4,266 to 5,218"
+    },
+    {
+      "date": "2027-05-14",
+      "ship": "Vision Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "2,036 to 2,443"
     },
     {
       "date": "2027-05-17",
@@ -5304,6 +5327,15 @@
     },
     {
       "date": "2027-05-27",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-05-27",
       "ship": "Carnival Vista",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "07:00",
@@ -5319,15 +5351,6 @@
       "departure": "16:00",
       "timeInPort": "7h",
       "passengers": "2,688 to 3,226"
-    },
-    {
-      "date": "2027-05-27",
-      "ship": "Carnival Celebration",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "11:00",
-      "departure": "19:00",
-      "timeInPort": "8h",
-      "passengers": "5,374 to 6,338"
     },
     {
       "date": "2027-05-28",
@@ -5367,21 +5390,21 @@
     },
     {
       "date": "2027-06-03",
-      "ship": "Carnival Freedom",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "2,984 to 3,581"
-    },
-    {
-      "date": "2027-06-03",
       "ship": "Carnival Festivale",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "09:00",
       "departure": "18:00",
       "timeInPort": "9h",
       "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-06-03",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "2,984 to 3,581"
     },
     {
       "date": "2027-06-04",
@@ -5457,15 +5480,6 @@
     },
     {
       "date": "2027-06-16",
-      "ship": "Norwegian Aura",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,840 to 4,714"
-    },
-    {
-      "date": "2027-06-16",
       "ship": "Carnival Magic",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "08:00",
@@ -5481,6 +5495,15 @@
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "3,276 to 3,950"
+    },
+    {
+      "date": "2027-06-16",
+      "ship": "Norwegian Aura",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,840 to 4,714"
     },
     {
       "date": "2027-06-17",
@@ -5538,21 +5561,21 @@
     },
     {
       "date": "2027-06-24",
-      "ship": "Oasis Of The Seas",
-      "cruiseLine": "Royal Caribbean",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "5,484 to 6,307"
-    },
-    {
-      "date": "2027-06-24",
       "ship": "Margaritaville At Sea Beachcomber",
       "cruiseLine": "Verify with cruise line",
       "arrival": "09:00",
       "departure": "16:00",
       "timeInPort": "7h",
       "passengers": "2,688 to 3,226"
+    },
+    {
+      "date": "2027-06-24",
+      "ship": "Oasis Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "5,484 to 6,307"
     },
     {
       "date": "2027-06-25",
@@ -5565,21 +5588,21 @@
     },
     {
       "date": "2027-06-28",
-      "ship": "Norwegian Aura",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,840 to 4,714"
-    },
-    {
-      "date": "2027-06-28",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2027-06-28",
+      "ship": "Norwegian Aura",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,840 to 4,714"
     },
     {
       "date": "2027-06-28",
@@ -5619,21 +5642,21 @@
     },
     {
       "date": "2027-07-01",
-      "ship": "Carnival Freedom",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "2,984 to 3,581"
-    },
-    {
-      "date": "2027-07-01",
       "ship": "Carnival Festivale",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "09:00",
       "departure": "18:00",
       "timeInPort": "9h",
       "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-07-01",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "2,984 to 3,581"
     },
     {
       "date": "2027-07-01",
@@ -5718,21 +5741,21 @@
     },
     {
       "date": "2027-07-12",
-      "ship": "Norwegian Aura",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,840 to 4,714"
-    },
-    {
-      "date": "2027-07-12",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2027-07-12",
+      "ship": "Norwegian Aura",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,840 to 4,714"
     },
     {
       "date": "2027-07-13",
@@ -5754,6 +5777,15 @@
     },
     {
       "date": "2027-07-15",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-07-15",
       "ship": "Carnival Freedom",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "07:00",
@@ -5769,15 +5801,6 @@
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "3,276 to 3,950"
-    },
-    {
-      "date": "2027-07-15",
-      "ship": "Carnival Festivale",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "09:00",
-      "departure": "18:00",
-      "timeInPort": "9h",
-      "passengers": "5,374 to 6,338"
     },
     {
       "date": "2027-07-19",
@@ -5835,12 +5858,12 @@
     },
     {
       "date": "2027-07-26",
-      "ship": "Norwegian Aura",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,840 to 4,714"
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "passengers": "5,374 to 6,338"
     },
     {
       "date": "2027-07-26",
@@ -5853,12 +5876,12 @@
     },
     {
       "date": "2027-07-26",
-      "ship": "Carnival Festivale",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:00",
-      "departure": "18:00",
-      "timeInPort": "8h",
-      "passengers": "5,374 to 6,338"
+      "ship": "Norwegian Aura",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,840 to 4,714"
     },
     {
       "date": "2027-07-27",
@@ -5889,21 +5912,21 @@
     },
     {
       "date": "2027-07-29",
-      "ship": "Carnival Freedom",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "2,984 to 3,581"
-    },
-    {
-      "date": "2027-07-29",
       "ship": "Carnival Celebration",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "08:00",
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-07-29",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "2,984 to 3,581"
     },
     {
       "date": "2027-08-02",
@@ -5952,15 +5975,6 @@
     },
     {
       "date": "2027-08-06",
-      "ship": "Norwegian Escape",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "09:00",
-      "departure": "18:00",
-      "timeInPort": "9h",
-      "passengers": "4,266 to 5,218"
-    },
-    {
-      "date": "2027-08-06",
       "ship": "Carnival Celebration",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "10:30",
@@ -5969,13 +5983,22 @@
       "passengers": "5,374 to 6,338"
     },
     {
-      "date": "2027-08-09",
-      "ship": "Norwegian Aura",
+      "date": "2027-08-06",
+      "ship": "Norwegian Escape",
       "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
+      "arrival": "09:00",
+      "departure": "18:00",
       "timeInPort": "9h",
-      "passengers": "3,840 to 4,714"
+      "passengers": "4,266 to 5,218"
+    },
+    {
+      "date": "2027-08-09",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "passengers": "5,374 to 6,338"
     },
     {
       "date": "2027-08-09",
@@ -5988,12 +6011,12 @@
     },
     {
       "date": "2027-08-09",
-      "ship": "Carnival Festivale",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:00",
-      "departure": "18:00",
-      "timeInPort": "8h",
-      "passengers": "5,374 to 6,338"
+      "ship": "Norwegian Aura",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,840 to 4,714"
     },
     {
       "date": "2027-08-10",
@@ -6105,15 +6128,6 @@
     },
     {
       "date": "2027-08-23",
-      "ship": "Norwegian Aura",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,840 to 4,714"
-    },
-    {
-      "date": "2027-08-23",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
@@ -6131,6 +6145,15 @@
       "passengers": "2,688 to 3,226"
     },
     {
+      "date": "2027-08-23",
+      "ship": "Norwegian Aura",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,840 to 4,714"
+    },
+    {
       "date": "2027-08-24",
       "ship": "Norwegian Aqua",
       "cruiseLine": "Norwegian Cruise Line",
@@ -6138,15 +6161,6 @@
       "departure": "16:00",
       "timeInPort": "7h",
       "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2027-08-25",
-      "ship": "Margaritaville At Sea Paradise",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "07:00",
-      "departure": "14:00",
-      "timeInPort": "7h",
-      "passengers": "928"
     },
     {
       "date": "2027-08-25",
@@ -6167,13 +6181,13 @@
       "passengers": "3,276 to 3,950"
     },
     {
-      "date": "2027-08-26",
-      "ship": "Carnival Freedom",
-      "cruiseLine": "Carnival Cruise Line",
+      "date": "2027-08-25",
+      "ship": "Margaritaville At Sea Paradise",
+      "cruiseLine": "Verify with cruise line",
       "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "2,984 to 3,581"
+      "departure": "14:00",
+      "timeInPort": "7h",
+      "passengers": "928"
     },
     {
       "date": "2027-08-26",
@@ -6183,6 +6197,15 @@
       "departure": "18:00",
       "timeInPort": "9h",
       "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-08-26",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "2,984 to 3,581"
     },
     {
       "date": "2027-08-30",
@@ -6249,21 +6272,21 @@
     },
     {
       "date": "2027-09-06",
-      "ship": "Norwegian Aura",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,840 to 4,714"
-    },
-    {
-      "date": "2027-09-06",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2027-09-06",
+      "ship": "Norwegian Aura",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,840 to 4,714"
     },
     {
       "date": "2027-09-07",
@@ -6303,21 +6326,21 @@
     },
     {
       "date": "2027-09-13",
-      "ship": "Norwegian Aura",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,840 to 4,714"
-    },
-    {
-      "date": "2027-09-13",
       "ship": "Carnival Vista",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "10:00",
       "departure": "18:00",
       "timeInPort": "8h",
       "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2027-09-13",
+      "ship": "Norwegian Aura",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,840 to 4,714"
     },
     {
       "date": "2027-09-15",
@@ -6339,19 +6362,19 @@
     },
     {
       "date": "2027-09-16",
-      "ship": "Carnival Festivale",
+      "ship": "Carnival Celebration",
       "cruiseLine": "Carnival Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
+      "arrival": "11:00",
+      "departure": "19:00",
       "timeInPort": "8h",
       "passengers": "5,374 to 6,338"
     },
     {
       "date": "2027-09-16",
-      "ship": "Carnival Celebration",
+      "ship": "Carnival Festivale",
       "cruiseLine": "Carnival Cruise Line",
-      "arrival": "11:00",
-      "departure": "19:00",
+      "arrival": "07:00",
+      "departure": "15:00",
       "timeInPort": "8h",
       "passengers": "5,374 to 6,338"
     },
@@ -6366,21 +6389,21 @@
     },
     {
       "date": "2027-09-20",
-      "ship": "Norwegian Aura",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,840 to 4,714"
-    },
-    {
-      "date": "2027-09-20",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2027-09-20",
+      "ship": "Norwegian Aura",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,840 to 4,714"
     },
     {
       "date": "2027-09-21",
@@ -6438,21 +6461,21 @@
     },
     {
       "date": "2027-09-29",
-      "ship": "Margaritaville At Sea Paradise",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "07:00",
-      "departure": "14:00",
-      "timeInPort": "7h",
-      "passengers": "928"
-    },
-    {
-      "date": "2027-09-29",
       "ship": "MSC Grandiosa",
       "cruiseLine": "MSC Cruises",
       "arrival": "08:00",
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "4,888 to 6,334"
+    },
+    {
+      "date": "2027-09-29",
+      "ship": "Margaritaville At Sea Paradise",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "07:00",
+      "departure": "14:00",
+      "timeInPort": "7h",
+      "passengers": "928"
     },
     {
       "date": "2027-10-01",
@@ -6465,21 +6488,21 @@
     },
     {
       "date": "2027-10-04",
-      "ship": "Norwegian Aura",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,840 to 4,714"
-    },
-    {
-      "date": "2027-10-04",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2027-10-04",
+      "ship": "Norwegian Aura",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,840 to 4,714"
     },
     {
       "date": "2027-10-05",
@@ -6582,15 +6605,6 @@
     },
     {
       "date": "2027-10-18",
-      "ship": "Norwegian Aura",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,840 to 4,714"
-    },
-    {
-      "date": "2027-10-18",
       "ship": "MSC World America",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
@@ -6599,13 +6613,13 @@
       "passengers": "5,240 to 6,774"
     },
     {
-      "date": "2027-10-19",
-      "ship": "Norwegian Luna",
+      "date": "2027-10-18",
+      "ship": "Norwegian Aura",
       "cruiseLine": "Norwegian Cruise Line",
       "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,840 to 4,714"
     },
     {
       "date": "2027-10-19",
@@ -6617,13 +6631,13 @@
       "passengers": "3,571 to 4,224"
     },
     {
-      "date": "2027-10-20",
-      "ship": "Norwegian Joy",
+      "date": "2027-10-19",
+      "ship": "Norwegian Luna",
       "cruiseLine": "Norwegian Cruise Line",
       "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,850 to 4,620"
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2027-10-20",
@@ -6635,13 +6649,13 @@
       "passengers": "3,690 to 4,428"
     },
     {
-      "date": "2027-10-21",
-      "ship": "Carnival Festivale",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "09:00",
-      "departure": "18:00",
+      "date": "2027-10-20",
+      "ship": "Norwegian Joy",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
       "timeInPort": "9h",
-      "passengers": "5,374 to 6,338"
+      "passengers": "3,850 to 4,620"
     },
     {
       "date": "2027-10-21",
@@ -6650,6 +6664,15 @@
       "arrival": "11:00",
       "departure": "19:00",
       "timeInPort": "8h",
+      "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-10-21",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
       "passengers": "5,374 to 6,338"
     },
     {
@@ -6663,21 +6686,21 @@
     },
     {
       "date": "2027-10-25",
-      "ship": "Norwegian Aura",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,840 to 4,714"
-    },
-    {
-      "date": "2027-10-25",
       "ship": "Carnival Vista",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "10:00",
       "departure": "18:00",
       "timeInPort": "8h",
       "passengers": "3,930 to 4,716"
+    },
+    {
+      "date": "2027-10-25",
+      "ship": "Norwegian Aura",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,840 to 4,714"
     },
     {
       "date": "2027-10-26",
@@ -6762,15 +6785,6 @@
     },
     {
       "date": "2027-11-01",
-      "ship": "MSC World America",
-      "cruiseLine": "MSC Cruises",
-      "arrival": "09:00",
-      "departure": "17:00",
-      "timeInPort": "8h",
-      "passengers": "5,240 to 6,774"
-    },
-    {
-      "date": "2027-11-01",
       "ship": "Celebrity Apex",
       "cruiseLine": "Celebrity Cruises",
       "arrival": "09:30",
@@ -6779,13 +6793,13 @@
       "passengers": "3,260 to 3,521"
     },
     {
-      "date": "2027-11-02",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
+      "date": "2027-11-01",
+      "ship": "MSC World America",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "09:00",
+      "departure": "17:00",
       "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
+      "passengers": "5,240 to 6,774"
     },
     {
       "date": "2027-11-02",
@@ -6795,6 +6809,15 @@
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "3,276 to 3,950"
+    },
+    {
+      "date": "2027-11-02",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2027-11-03",
@@ -6816,21 +6839,21 @@
     },
     {
       "date": "2027-11-04",
-      "ship": "Carnival Freedom",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "2,984 to 3,581"
-    },
-    {
-      "date": "2027-11-04",
       "ship": "Carnival Festivale",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "09:00",
       "departure": "18:00",
       "timeInPort": "9h",
       "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-11-04",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "2,984 to 3,581"
     },
     {
       "date": "2027-11-07",
@@ -6843,15 +6866,6 @@
     },
     {
       "date": "2027-11-08",
-      "ship": "Independence Of The Seas",
-      "cruiseLine": "Royal Caribbean",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "3,630 to 4,356"
-    },
-    {
-      "date": "2027-11-08",
       "ship": "Carnival Vista",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "10:00",
@@ -6860,13 +6874,13 @@
       "passengers": "3,930 to 4,716"
     },
     {
-      "date": "2027-11-09",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
+      "date": "2027-11-08",
+      "ship": "Independence Of The Seas",
+      "cruiseLine": "Royal Caribbean",
       "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "3,630 to 4,356"
     },
     {
       "date": "2027-11-09",
@@ -6878,13 +6892,13 @@
       "passengers": "5,374 to 6,338"
     },
     {
-      "date": "2027-11-10",
-      "ship": "Star Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "08:00",
+      "date": "2027-11-09",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
       "departure": "15:00",
-      "timeInPort": "7h",
-      "passengers": "928"
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2027-11-10",
@@ -6896,13 +6910,13 @@
       "passengers": "4,888 to 6,334"
     },
     {
-      "date": "2027-11-11",
-      "ship": "Resilient Lady",
-      "cruiseLine": "Verify with cruise line",
+      "date": "2027-11-10",
+      "ship": "Star Princess",
+      "cruiseLine": "Princess Cruises",
       "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "2,770 to 2,860"
+      "departure": "15:00",
+      "timeInPort": "7h",
+      "passengers": "928"
     },
     {
       "date": "2027-11-11",
@@ -6912,6 +6926,15 @@
       "departure": "19:00",
       "timeInPort": "8h",
       "passengers": "4,004 to 4,903"
+    },
+    {
+      "date": "2027-11-11",
+      "ship": "Resilient Lady",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "2,770 to 2,860"
     },
     {
       "date": "2027-11-12",
@@ -6924,21 +6947,21 @@
     },
     {
       "date": "2027-11-12",
-      "ship": "Norwegian Breakaway",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "10:00",
-      "departure": "19:00",
-      "timeInPort": "9h",
-      "passengers": "3,957 to 4,819"
-    },
-    {
-      "date": "2027-11-12",
       "ship": "MSC Seashore",
       "cruiseLine": "MSC Cruises",
       "arrival": "11:00",
       "departure": "18:00",
       "timeInPort": "7h",
       "passengers": "4,560 to 5,877"
+    },
+    {
+      "date": "2027-11-12",
+      "ship": "Norwegian Breakaway",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "10:00",
+      "departure": "19:00",
+      "timeInPort": "9h",
+      "passengers": "3,957 to 4,819"
     },
     {
       "date": "2027-11-14",
@@ -6951,21 +6974,21 @@
     },
     {
       "date": "2027-11-15",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-11-15",
       "ship": "Carnival Venezia",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "08:00",
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "4,232 to 5,145"
-    },
-    {
-      "date": "2027-11-15",
-      "ship": "MSC World America",
-      "cruiseLine": "MSC Cruises",
-      "arrival": "09:00",
-      "departure": "17:00",
-      "timeInPort": "8h",
-      "passengers": "5,240 to 6,774"
     },
     {
       "date": "2027-11-15",
@@ -6978,21 +7001,21 @@
     },
     {
       "date": "2027-11-15",
-      "ship": "Carnival Festivale",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:00",
-      "departure": "18:00",
+      "ship": "MSC World America",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "09:00",
+      "departure": "17:00",
       "timeInPort": "8h",
-      "passengers": "5,374 to 6,338"
+      "passengers": "5,240 to 6,774"
     },
     {
       "date": "2027-11-16",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
+      "ship": "Carnival Firenze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
       "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
+      "passengers": "4,232 to 5,078"
     },
     {
       "date": "2027-11-16",
@@ -7005,30 +7028,21 @@
     },
     {
       "date": "2027-11-16",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
+    },
+    {
+      "date": "2027-11-16",
       "ship": "Sky Princess",
       "cruiseLine": "Princess Cruises",
       "arrival": "10:00",
       "departure": "17:00",
       "timeInPort": "7h",
       "passengers": "3,668 to 4,402"
-    },
-    {
-      "date": "2027-11-16",
-      "ship": "Carnival Firenze",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
-      "timeInPort": "8h",
-      "passengers": "4,232 to 5,078"
-    },
-    {
-      "date": "2027-11-17",
-      "ship": "Star Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "928"
     },
     {
       "date": "2027-11-17",
@@ -7058,13 +7072,13 @@
       "passengers": "2,770 to 2,860"
     },
     {
-      "date": "2027-11-18",
-      "ship": "Carnival Freedom",
-      "cruiseLine": "Carnival Cruise Line",
+      "date": "2027-11-17",
+      "ship": "Star Princess",
+      "cruiseLine": "Princess Cruises",
       "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "2,984 to 3,581"
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "928"
     },
     {
       "date": "2027-11-18",
@@ -7083,6 +7097,15 @@
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-11-18",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "2,984 to 3,581"
     },
     {
       "date": "2027-11-21",
@@ -7113,21 +7136,21 @@
     },
     {
       "date": "2027-11-23",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2027-11-23",
       "ship": "Carnival Festivale",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "10:30",
       "departure": "18:30",
       "timeInPort": "8h",
       "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-11-23",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2027-11-24",
@@ -7140,15 +7163,6 @@
     },
     {
       "date": "2027-11-24",
-      "ship": "Sun Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "08:00",
-      "departure": "17:00",
-      "timeInPort": "9h",
-      "passengers": "928"
-    },
-    {
-      "date": "2027-11-24",
       "ship": "MSC World Atlantic",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
@@ -7157,13 +7171,13 @@
       "passengers": null
     },
     {
-      "date": "2027-11-25",
-      "ship": "Sky Princess",
+      "date": "2027-11-24",
+      "ship": "Sun Princess",
       "cruiseLine": "Princess Cruises",
-      "arrival": "10:00",
-      "departure": "18:00",
-      "timeInPort": "8h",
-      "passengers": "3,668 to 4,402"
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "928"
     },
     {
       "date": "2027-11-25",
@@ -7173,6 +7187,15 @@
       "departure": "19:00",
       "timeInPort": "8h",
       "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-11-25",
+      "ship": "Sky Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "passengers": "3,668 to 4,402"
     },
     {
       "date": "2027-11-26",
@@ -7212,12 +7235,12 @@
     },
     {
       "date": "2027-11-29",
-      "ship": "MSC World America",
-      "cruiseLine": "MSC Cruises",
-      "arrival": "09:00",
-      "departure": "17:00",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:00",
+      "departure": "18:00",
       "timeInPort": "8h",
-      "passengers": "5,240 to 6,774"
+      "passengers": "3,930 to 4,716"
     },
     {
       "date": "2027-11-29",
@@ -7230,12 +7253,12 @@
     },
     {
       "date": "2027-11-29",
-      "ship": "Carnival Vista",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:00",
-      "departure": "18:00",
+      "ship": "MSC World America",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "09:00",
+      "departure": "17:00",
       "timeInPort": "8h",
-      "passengers": "3,930 to 4,716"
+      "passengers": "5,240 to 6,774"
     },
     {
       "date": "2027-11-29",
@@ -7248,12 +7271,12 @@
     },
     {
       "date": "2027-11-30",
-      "ship": "Sun Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "928"
+      "ship": "Norwegian Pearl",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "11:30",
+      "departure": "18:30",
+      "timeInPort": "7h",
+      "passengers": "2,394 to 2,873"
     },
     {
       "date": "2027-11-30",
@@ -7266,20 +7289,11 @@
     },
     {
       "date": "2027-11-30",
-      "ship": "Norwegian Pearl",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "11:30",
-      "departure": "18:30",
-      "timeInPort": "7h",
-      "passengers": "2,394 to 2,873"
-    },
-    {
-      "date": "2027-12-01",
-      "ship": "Margaritaville At Sea Paradise",
-      "cruiseLine": "Verify with cruise line",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
       "arrival": "07:00",
-      "departure": "14:00",
-      "timeInPort": "7h",
+      "departure": "15:00",
+      "timeInPort": "8h",
       "passengers": "928"
     },
     {
@@ -7293,10 +7307,10 @@
     },
     {
       "date": "2027-12-01",
-      "ship": "Star Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "08:00",
-      "departure": "15:00",
+      "ship": "Margaritaville At Sea Paradise",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "07:00",
+      "departure": "14:00",
       "timeInPort": "7h",
       "passengers": "928"
     },
@@ -7310,13 +7324,13 @@
       "passengers": "4,004 to 4,903"
     },
     {
-      "date": "2027-12-02",
-      "ship": "Carnival Freedom",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "2,984 to 3,581"
+      "date": "2027-12-01",
+      "ship": "Star Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "08:00",
+      "departure": "15:00",
+      "timeInPort": "7h",
+      "passengers": "928"
     },
     {
       "date": "2027-12-02",
@@ -7329,15 +7343,6 @@
     },
     {
       "date": "2027-12-02",
-      "ship": "MSC Seashore",
-      "cruiseLine": "MSC Cruises",
-      "arrival": "08:00",
-      "departure": "18:00",
-      "timeInPort": "10h",
-      "passengers": "4,560 to 5,877"
-    },
-    {
-      "date": "2027-12-02",
       "ship": "Carnival Festivale",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "09:00",
@@ -7346,13 +7351,22 @@
       "passengers": "5,374 to 6,338"
     },
     {
-      "date": "2027-12-03",
-      "ship": "Norwegian Dawn",
-      "cruiseLine": "Norwegian Cruise Line",
+      "date": "2027-12-02",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
       "arrival": "07:00",
-      "departure": "17:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "2,984 to 3,581"
+    },
+    {
+      "date": "2027-12-02",
+      "ship": "MSC Seashore",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "08:00",
+      "departure": "18:00",
       "timeInPort": "10h",
-      "passengers": "2,340 to 2,808"
+      "passengers": "4,560 to 5,877"
     },
     {
       "date": "2027-12-03",
@@ -7362,6 +7376,15 @@
       "departure": "16:00",
       "timeInPort": "8h",
       "passengers": "4,232 to 5,145"
+    },
+    {
+      "date": "2027-12-03",
+      "ship": "Norwegian Dawn",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "2,340 to 2,808"
     },
     {
       "date": "2027-12-03",
@@ -7410,12 +7433,12 @@
     },
     {
       "date": "2027-12-07",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
       "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
+      "passengers": "5,374 to 6,338"
     },
     {
       "date": "2027-12-07",
@@ -7428,12 +7451,12 @@
     },
     {
       "date": "2027-12-07",
-      "ship": "Carnival Festivale",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "10:30",
-      "departure": "18:30",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
       "timeInPort": "8h",
-      "passengers": "5,374 to 6,338"
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2027-12-08",
@@ -7446,21 +7469,21 @@
     },
     {
       "date": "2027-12-08",
-      "ship": "Star Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "08:00",
-      "departure": "15:00",
-      "timeInPort": "7h",
-      "passengers": "928"
-    },
-    {
-      "date": "2027-12-08",
       "ship": "MSC World Atlantic",
       "cruiseLine": "MSC Cruises",
       "arrival": "09:00",
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": null
+    },
+    {
+      "date": "2027-12-08",
+      "ship": "Star Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "08:00",
+      "departure": "15:00",
+      "timeInPort": "7h",
+      "passengers": "928"
     },
     {
       "date": "2027-12-09",
@@ -7482,15 +7505,6 @@
     },
     {
       "date": "2027-12-10",
-      "ship": "Sky Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "09:00",
-      "departure": "16:00",
-      "timeInPort": "7h",
-      "passengers": "3,668 to 4,402"
-    },
-    {
-      "date": "2027-12-10",
       "ship": "MSC Seashore",
       "cruiseLine": "MSC Cruises",
       "arrival": "10:00",
@@ -7506,6 +7520,15 @@
       "departure": "19:00",
       "timeInPort": "9h",
       "passengers": "3,957 to 4,819"
+    },
+    {
+      "date": "2027-12-10",
+      "ship": "Sky Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "09:00",
+      "departure": "16:00",
+      "timeInPort": "7h",
+      "passengers": "3,668 to 4,402"
     },
     {
       "date": "2027-12-12",
@@ -7527,33 +7550,6 @@
     },
     {
       "date": "2027-12-13",
-      "ship": "Oceania Sirena",
-      "cruiseLine": "Oceania Cruises",
-      "arrival": "07:00",
-      "departure": "17:00",
-      "timeInPort": "10h",
-      "passengers": "698 to 803"
-    },
-    {
-      "date": "2027-12-13",
-      "ship": "MSC World America",
-      "cruiseLine": "MSC Cruises",
-      "arrival": "09:00",
-      "departure": "17:00",
-      "timeInPort": "8h",
-      "passengers": "5,240 to 6,774"
-    },
-    {
-      "date": "2027-12-13",
-      "ship": "Valiant Lady",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "09:30",
-      "departure": "18:00",
-      "timeInPort": "8h 30m",
-      "passengers": "2,770 to 2,860"
-    },
-    {
-      "date": "2027-12-13",
       "ship": "Carnival Festivale",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "10:00",
@@ -7572,6 +7568,15 @@
     },
     {
       "date": "2027-12-13",
+      "ship": "MSC World America",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": "5,240 to 6,774"
+    },
+    {
+      "date": "2027-12-13",
       "ship": "Norwegian Bliss",
       "cruiseLine": "Norwegian Cruise Line",
       "arrival": "11:00",
@@ -7580,13 +7585,31 @@
       "passengers": "4,004 to 4,903"
     },
     {
-      "date": "2027-12-14",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
+      "date": "2027-12-13",
+      "ship": "Oceania Sirena",
+      "cruiseLine": "Oceania Cruises",
       "arrival": "07:00",
-      "departure": "15:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "698 to 803"
+    },
+    {
+      "date": "2027-12-13",
+      "ship": "Valiant Lady",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "09:30",
+      "departure": "18:00",
+      "timeInPort": "8h 30m",
+      "passengers": "2,770 to 2,860"
+    },
+    {
+      "date": "2027-12-14",
+      "ship": "Explora II",
+      "cruiseLine": "Verify with cruise line",
+      "arrival": "09:00",
+      "departure": "17:00",
       "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
+      "passengers": "922 to 1,473"
     },
     {
       "date": "2027-12-14",
@@ -7599,12 +7622,12 @@
     },
     {
       "date": "2027-12-14",
-      "ship": "Explora II",
-      "cruiseLine": "Verify with cruise line",
-      "arrival": "09:00",
-      "departure": "17:00",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
       "timeInPort": "8h",
-      "passengers": "922 to 1,473"
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2027-12-15",
@@ -7644,15 +7667,6 @@
     },
     {
       "date": "2027-12-16",
-      "ship": "Carnival Freedom",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "2,984 to 3,581"
-    },
-    {
-      "date": "2027-12-16",
       "ship": "Allure Of The Seas",
       "cruiseLine": "Royal Caribbean",
       "arrival": "08:00",
@@ -7662,12 +7676,12 @@
     },
     {
       "date": "2027-12-16",
-      "ship": "Sky Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "10:00",
-      "departure": "18:00",
-      "timeInPort": "8h",
-      "passengers": "3,668 to 4,402"
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "2,984 to 3,581"
     },
     {
       "date": "2027-12-16",
@@ -7677,6 +7691,15 @@
       "departure": "18:30",
       "timeInPort": "7h",
       "passengers": "2,394 to 2,873"
+    },
+    {
+      "date": "2027-12-16",
+      "ship": "Sky Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "passengers": "3,668 to 4,402"
     },
     {
       "date": "2027-12-20",
@@ -7716,15 +7739,6 @@
     },
     {
       "date": "2027-12-21",
-      "ship": "Silver Shadow",
-      "cruiseLine": "Silversea",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "388 to 466"
-    },
-    {
-      "date": "2027-12-21",
       "ship": "Regal Princess",
       "cruiseLine": "Princess Cruises",
       "arrival": "10:00",
@@ -7740,6 +7754,15 @@
       "departure": "18:00",
       "timeInPort": "8h",
       "passengers": "2,770 to 2,860"
+    },
+    {
+      "date": "2027-12-21",
+      "ship": "Silver Shadow",
+      "cruiseLine": "Silversea",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "388 to 466"
     },
     {
       "date": "2027-12-22",
@@ -7761,21 +7784,21 @@
     },
     {
       "date": "2027-12-24",
-      "ship": "Carnival Freedom",
-      "cruiseLine": "Carnival Cruise Line",
-      "arrival": "07:00",
-      "departure": "16:00",
-      "timeInPort": "9h",
-      "passengers": "2,984 to 3,581"
-    },
-    {
-      "date": "2027-12-24",
       "ship": "Carnival Celebration",
       "cruiseLine": "Carnival Cruise Line",
       "arrival": "08:00",
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "5,374 to 6,338"
+    },
+    {
+      "date": "2027-12-24",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "2,984 to 3,581"
     },
     {
       "date": "2027-12-24",
@@ -7851,15 +7874,6 @@
     },
     {
       "date": "2027-12-28",
-      "ship": "Norwegian Luna",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "15:00",
-      "timeInPort": "8h",
-      "passengers": "3,571 to 4,224"
-    },
-    {
-      "date": "2027-12-28",
       "ship": "Explora II",
       "cruiseLine": "Verify with cruise line",
       "arrival": "09:00",
@@ -7869,12 +7883,12 @@
     },
     {
       "date": "2027-12-28",
-      "ship": "Symphony Of The Seas",
-      "cruiseLine": "Royal Caribbean",
-      "arrival": "09:00",
-      "departure": "17:00",
+      "ship": "Norwegian Luna",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
       "timeInPort": "8h",
-      "passengers": "5,518 to 6,370"
+      "passengers": "3,571 to 4,224"
     },
     {
       "date": "2027-12-28",
@@ -7886,13 +7900,13 @@
       "passengers": "3,668 to 4,402"
     },
     {
-      "date": "2027-12-29",
-      "ship": "MSC Seashore",
-      "cruiseLine": "MSC Cruises",
-      "arrival": "07:00",
-      "departure": "16:30",
-      "timeInPort": "9h 30m",
-      "passengers": "4,560 to 5,877"
+      "date": "2027-12-28",
+      "ship": "Symphony Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": "5,518 to 6,370"
     },
     {
       "date": "2027-12-29",
@@ -7913,6 +7927,15 @@
       "passengers": "5,374 to 6,338"
     },
     {
+      "date": "2027-12-29",
+      "ship": "MSC Seashore",
+      "cruiseLine": "MSC Cruises",
+      "arrival": "07:00",
+      "departure": "16:30",
+      "timeInPort": "9h 30m",
+      "passengers": "4,560 to 5,877"
+    },
+    {
       "date": "2027-12-30",
       "ship": "Allure Of The Seas",
       "cruiseLine": "Royal Caribbean",
@@ -7920,15 +7943,6 @@
       "departure": "17:00",
       "timeInPort": "9h",
       "passengers": "5,490 to 6,314"
-    },
-    {
-      "date": "2027-12-30",
-      "ship": "Sun Princess",
-      "cruiseLine": "Princess Cruises",
-      "arrival": "09:00",
-      "departure": "16:00",
-      "timeInPort": "7h",
-      "passengers": "928"
     },
     {
       "date": "2027-12-30",
@@ -7940,13 +7954,13 @@
       "passengers": "3,560 to 4,272"
     },
     {
-      "date": "2027-12-31",
-      "ship": "Norwegian Pearl",
-      "cruiseLine": "Norwegian Cruise Line",
-      "arrival": "07:00",
-      "departure": "14:00",
+      "date": "2027-12-30",
+      "ship": "Sun Princess",
+      "cruiseLine": "Princess Cruises",
+      "arrival": "09:00",
+      "departure": "16:00",
       "timeInPort": "7h",
-      "passengers": "2,394 to 2,873"
+      "passengers": "928"
     },
     {
       "date": "2027-12-31",
@@ -7956,6 +7970,942 @@
       "departure": "17:00",
       "timeInPort": "8h",
       "passengers": "3,260 to 3,521"
+    },
+    {
+      "date": "2027-12-31",
+      "ship": "Norwegian Pearl",
+      "cruiseLine": "Norwegian Cruise Line",
+      "arrival": "07:00",
+      "departure": "14:00",
+      "timeInPort": "7h",
+      "passengers": "2,394 to 2,873"
+    },
+    {
+      "date": "2028-01-04",
+      "ship": "Oceania Marina",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "10:00",
+      "departure": "16:00",
+      "timeInPort": "6h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-05",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-06",
+      "ship": "Carnival Magic",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-07",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-09",
+      "ship": "Carnival Miracle",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-10",
+      "ship": "Adventure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-10",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-11",
+      "ship": "Carnival Firenze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-12",
+      "ship": "Independence Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-13",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-13",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-13",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-14",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-15",
+      "ship": "Celebrity Eclipse",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:30",
+      "departure": "18:00",
+      "timeInPort": "8h 30m",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-18",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-18",
+      "ship": "Rotterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-19",
+      "ship": "Seven Seas Prestige",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-20",
+      "ship": "Carnival Valor",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-25",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-26",
+      "ship": "Carnival Magic",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-27",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-27",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-27",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "15:00",
+      "timeInPort": "7h",
+      "passengers": null
+    },
+    {
+      "date": "2028-01-30",
+      "ship": "Carnival Miracle",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-01",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-02",
+      "ship": "Rotterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-03",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-04",
+      "ship": "Celebrity Xcel",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "11:30",
+      "departure": "18:00",
+      "timeInPort": "6h 30m",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-06",
+      "ship": "Carnival Sunshine",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-07",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:30",
+      "departure": "16:00",
+      "timeInPort": "6h 30m",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-08",
+      "ship": "Carnival Breeze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-09",
+      "ship": "Carnival Magic",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-10",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-10",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-10",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-11",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:00",
+      "timeInPort": "7h 30m",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-13",
+      "ship": "Independence Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-15",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-15",
+      "ship": "Oceania Marina",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "10:00",
+      "departure": "16:00",
+      "timeInPort": "6h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-15",
+      "ship": "Rotterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-17",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-17",
+      "ship": "Celebrity Eclipse",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:30",
+      "departure": "18:00",
+      "timeInPort": "8h 30m",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-18",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-19",
+      "ship": "Oceania Marina",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "10:00",
+      "departure": "19:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-21",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:30",
+      "departure": "16:00",
+      "timeInPort": "6h 30m",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-21",
+      "ship": "Oceania Sonata",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-23",
+      "ship": "Carnival Magic",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-24",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-24",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-02-29",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-01",
+      "ship": "Celebrity Eclipse",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-01",
+      "ship": "Rotterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-02",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-02",
+      "ship": "Independence Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-03",
+      "ship": "Oceania Sonata",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-06",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-06",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:30",
+      "departure": "16:00",
+      "timeInPort": "6h 30m",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-07",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-07",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-08",
+      "ship": "Carnival Magic",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-09",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-10",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-11",
+      "ship": "Celebrity Summit",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-14",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-14",
+      "ship": "Rotterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-15",
+      "ship": "Adventure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "09:00",
+      "departure": "16:00",
+      "timeInPort": "7h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-16",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-17",
+      "ship": "Celebrity Xcel",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "11:30",
+      "departure": "18:00",
+      "timeInPort": "6h 30m",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-19",
+      "ship": "Carnival Miracle",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-20",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:30",
+      "departure": "16:00",
+      "timeInPort": "6h 30m",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-21",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-22",
+      "ship": "Carnival Magic",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-22",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-22",
+      "ship": "Seven Seas Grandeur",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-23",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-23",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-25",
+      "ship": "Celebrity Summit",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-28",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-29",
+      "ship": "Celebrity Ascent",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-29",
+      "ship": "Eurodam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-30",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-03-30",
+      "ship": "Celebrity Eclipse",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:30",
+      "departure": "18:00",
+      "timeInPort": "8h 30m",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-02",
+      "ship": "Adventure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-03",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:30",
+      "departure": "16:00",
+      "timeInPort": "6h 30m",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-04",
+      "ship": "Carnival Firenze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-04",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-06",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-06",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-06",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-10",
+      "ship": "Independence Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-11",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-11",
+      "ship": "Celebrity Xcel",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-13",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-16",
+      "ship": "Celebrity Summit",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-18",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-18",
+      "ship": "Symphony Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-20",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-20",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-25",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-04-27",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": null
+    },
+    {
+      "date": "2028-05-04",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "18:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-11-04",
+      "ship": "Oceania Vista",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": null
+    },
+    {
+      "date": "2028-12-22",
+      "ship": "Seven Seas Prestige",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "10:30",
+      "departure": "18:30",
+      "timeInPort": "8h",
+      "passengers": null
     }
   ]
 }

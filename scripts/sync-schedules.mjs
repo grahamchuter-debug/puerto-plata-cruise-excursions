@@ -164,7 +164,7 @@ function main() {
         byMonth,
         populatedMonths,
         years: Object.keys(byYear)
-          .filter((y) => (byYear[y] || 0) > 0 && y !== "2028")
+          .filter((y) => (byYear[y] || 0) > 0)
           .sort(),
       },
       null,

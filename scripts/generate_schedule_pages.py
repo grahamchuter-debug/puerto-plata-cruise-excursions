@@ -87,9 +87,19 @@ def page_shell(
 """
 
 
-def disclaimer() -> str:
-    return """<p class="schedule-disclaimer text-sm text-gray-500 leading-relaxed">
-  Cruise schedules can change. Arrival and departure times are planning guides  -  confirm final timings with your cruise line before you travel.
+FUTURE_ITINERARY_2028 = (
+    "This 2028 cruise schedule is based on currently published cruise itineraries "
+    "and is updated as schedules change. Always check your cruise line for your final sailing details."
+)
+
+
+def disclaimer(year: str | None = None) -> str:
+    text = FUTURE_ITINERARY_2028 if year == "2028" else (
+        "Cruise schedules can change. Arrival and departure times are planning guides — "
+        "confirm final timings with your cruise line before you travel."
+    )
+    return f"""<p class="schedule-disclaimer text-sm text-gray-500 leading-relaxed">
+  {text}
 </p>"""
 
 
@@ -169,7 +179,7 @@ def hub_page(meta: dict, by_year: dict, months: list[str]) -> str:
     year_links = "".join(
         f'<a class="decision-chip" href="{y}/">{y} · {by_year.get(y, 0)} calls</a>'
         for y in sorted(by_year)
-        if by_year[y] > 0 and y != "2028"
+        if by_year[y] > 0
     )
     month_links = "".join(
         f'<li><a href="{ym[:4]}/{ym[5:]}/">{month_label(ym)}  -  {meta["integrity"]["byMonth"][ym]} calls</a></li>'
@@ -212,7 +222,7 @@ def year_page(year: str, count: int, months: list[str], by_month: dict) -> str:
     </nav>
     <h1 class="text-3xl sm:text-4xl font-display font-bold text-gray-900 mb-3">{esc(DEST)} cruise schedule {year}</h1>
     <p class="text-gray-600 mb-4">{count} scheduled calls in {year}. Open a month to search by ship or date.</p>
-    {disclaimer()}
+    {disclaimer(year)}
     <div class="flex flex-wrap gap-3 mt-8">{links}</div>
     <p class="mt-10 text-sm"><a class="text-ocean-600 font-semibold" href="../">← All years</a></p>
   </div>
@@ -234,7 +244,7 @@ def month_page(ym: str, calls: list[dict]) -> str:
     </nav>
     <h1 class="text-3xl sm:text-4xl font-display font-bold text-gray-900 mb-2">{label}  -  {esc(DEST)} cruise calls</h1>
     <p class="text-gray-600 mb-4">{len(calls)} scheduled calls. Search by ship name or date below.</p>
-    {disclaimer()}
+    {disclaimer(y)}
     <div class="mt-8">{body}</div>
     <p class="mt-10 text-sm flex flex-wrap gap-4">
       <a class="text-ocean-600 font-semibold" href="../">← {y} months</a>
@@ -271,7 +281,7 @@ def main() -> list[tuple[str, str, str]]:
         by_year[c["date"][:4]] += 1
 
     months = sorted(by_month.keys())
-    years = sorted(y for y, n in by_year.items() if n > 0 and y != "2028")
+    years = sorted(y for y, n in by_year.items() if n > 0)
 
     # Clear prior generated month trees carefully  -  only under ship-schedule/
     hub_dir = ROOT / HUB
